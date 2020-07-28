@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink, Container, Col, Row, CardBody } from 'reactstrap';
+import { Navbar, NavbarToggler, Collapse, Nav, NavItem, NavLink, Container, Col, Row, CardBody } from 'reactstrap';
 
 
 class Header extends Component {
@@ -50,7 +50,7 @@ class Header extends Component {
                                 <NavLink className="nav-link" href="/" to='/menu'><span className="fa fa-download fa-lg"></span> DOWNLOAD </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link"  href="/"  to='#'><span className="fa fa-address-card fa-lg"></span> KONTAKT</NavLink>
+                                <NavLink className="nav-link"  href="/"  to='#'><span className="fa fa-envelope fa-lg"></span> KONTAKT</NavLink>
                             </NavItem>
                             </Nav>
                         </Collapse>

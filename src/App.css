@@ -29,6 +29,13 @@ background: url('../src/images/border-bottom.png') repeat-x 100px bottom;
   margin-top: auto;
 }
 
+.fa {
+  margin-right: 5px;
+}
+
+#CardBody .fa{
+  padding-right: 16px!important;
+}
 
 /* .author_name
 {
@@ -96,6 +103,32 @@ span {
   color: white;
 }
 
+.fa-icons {
+  margin: 16px!important;
+  padding: 16px;
+}
+
+.btn-social-icon {
+  margin-right: 7px;
+  margin-bottom: 7px;
+  color: white;
+  
+}
+
+.checked {
+  color: orange;
+}
+
+.unchecked {
+  color: grey;;
+}
+
+.my_image{
+  padding: 1px;
+ }
+
+
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -122,14 +155,27 @@ span {
   color: #03167e;
 }
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+.list-group-item {
+  background-color: transparent;
+}
+
+.list-group-item .li {
+  margin: 5px;
+
+}
+
+.list-group .list-group-item {
+  color: white;
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,.125);
+  padding: 1rem 0.2rem;
+}
+
+.list-group-item-undefined {
+  margin: 0px;
+}
 
 
-  
+.list-group-item-undefined{
+  margin: 0px;
+}

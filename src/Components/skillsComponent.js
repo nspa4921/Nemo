@@ -1,22 +1,182 @@
-import React, { Component } from 'react';
-import { Navbar, NavbarBrand, NavbarText, Container, Col, Row, CardBody } from 'reactstrap';
+import React, { useState } from 'react';
+import { Collapse, Button, CardBody, Card, Container, Row, Col, CardTitle, CardText, } from 'reactstrap';
+import Icon from '@material-ui/core/Icon';
 
-class Skills extends Component {
-  render() {
-    return(
+
+export default function SimpleAccordion() {
+
+      return (     
         <Container>  
-                <Col>
-                  <CardBody>
-                  <ul>	
-                          <li><a href="#" class="print_menu_link" onClick="window.print(); return false;">Print</a></li>
-                          <li><a href="cv-en.pdf" class="download_menu_link">Download</a></li>
-                          <li><a href="#contact" class="contact_menu_link contact_link">Contact</a></li>
-                      </ul>
-                  </CardBody>
+          <CardTitle align="left">
+            <h2>SKILLS</h2>
+            </CardTitle>
+                <hr/>
+                <br></br>
+            <CardTitle align="left">
+                <h5>TECHNICAL SKILLS</h5>
+            </CardTitle>
+              <Row>
+                <Col xs="9" sm="9"  align="left">
+                <CardText>▷ HTML, XHTML, CSS, PHP, MySQL</CardText> 
                 </Col>
-        </Container>
-    );
-  }
-}
+                <Col xs="3" sm="3" align="left">
+                <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13}} />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="9" sm="9"  align="left">
+                <CardText>▷ JS, React and React-Native, Redux, NodeJs, Git, Github </CardText> 
+                </Col>
+                <Col xs="3" sm="3" align="left">
+                <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13}} />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="9" sm="9"  align="left">
+                <CardText>▷ CMS systems: Wordpress, Joomla </CardText> 
+                </Col>
+                <Col xs="3" sm="3" align="left">
+                <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13}} />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="9" sm="9"  align="left">
+                <CardText>▷ Good knowledge of Bootstrap 4 & Grid System</CardText> 
+                </Col>
+                <Col xs="3" sm="3" align="left">
+                <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13}} />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="9" sm="9"  align="left">
+                <CardText>▷ Visual Studio Code, Dreamviewer </CardText> 
+                </Col>
+                <Col xs="3" sm="3" align="left">
+                <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13}} />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="9" sm="9"  align="left">
+                <CardText>▷ MsOffice packages (Word, Excel, Powerpoint, Outlook) </CardText> 
+                </Col>
+                <Col xs="3" sm="3" align="left" >
+                <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13}} />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="9" sm="9"  align="left">
+                <CardText>▷ Sharepoint  </CardText> 
+                </Col>
+                <Col xs="3" sm="3" align="left">
+                <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star unchecked" style={{ fontSize: 13}} />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="9" sm="9"  align="left">
+                <CardText>▷ Amadeus GDS booking systems  </CardText> 
+                </Col>
+                <Col xs="3" sm="3" align="left">
+                <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star unchecked" style={{ fontSize: 13}} />
+                </Col>
+              </Row>
 
-export default Skills;
+                <hr/>
+                <br></br>
+            <CardTitle align="left">
+                <h5>LANGUAGUES</h5>
+            </CardTitle>
+              <Row>
+                <Col xs="9" sm="9"  align="left">
+                <CardText>▷ Danish (Advanced) </CardText> 
+                </Col>
+                <Col xs="3" sm="3" align="left">
+                <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star unchecked" style={{ fontSize: 13}} />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="9" sm="9"  align="left">
+                <CardText>▷ English (Advanced) </CardText> 
+                </Col>
+                <Col xs="3" sm="3" align="left">
+                <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star unchecked" style={{ fontSize: 13}} />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="9" sm="9"  align="left">
+                <CardText>▷ Hungarian (Native) </CardText> 
+                </Col>
+                <Col xs="3" sm="3" align="left">
+                <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13}} />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="9" sm="9"  align="left">
+                <CardText>▷ Serbian (Native)</CardText> 
+                </Col>
+                <Col xs="3" sm="3" align="left">
+                <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13}} />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="9" sm="9"  align="left">
+                <CardText>▷ Swedish (Beginner)</CardText> 
+                </Col>
+                <Col xs="3" sm="3" align="left">
+                <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star unchecked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star unchecked" style={{ fontSize: 13 }} />
+                    <Icon className="fa fa-star unchecked" style={{ fontSize: 13}} />
+                </Col>
+              </Row>
+        </Container>
+      );
+    }
