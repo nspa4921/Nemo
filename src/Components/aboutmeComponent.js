@@ -5,14 +5,11 @@ import Picture from './pictureComponent';
 
     const Aboutme = (props) => {
       return (
-            
-
         <Container className="wrapper-right">  
             <Row>
               <Col sm="6" className="wrapper">           
                 <Picture />  
               </Col>
-
               <Col className="wrapper">  
                 <CardBody>
                   <CardTitle align="left"><h2>ABOUT ME</h2></CardTitle>

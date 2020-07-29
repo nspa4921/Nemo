@@ -22,21 +22,17 @@ class Header extends Component {
     return(
     <React.Fragment>
         <Container className="wrapper-right">  
-              <Row xs="2">
-                <Col className="wrapper">
+              <Row className="wrapper-header">
+                <Col sm="6" >
                   <CardBody>
-                  <div className="container">
-                        <div className="row row-header">
-                            <div className="col-12">
+                            <div className="header-logo">
                                 <h1 align="left">NEMANJA SPASIC</h1>
                                 <h4 align="left">CV</h4>
                             </div>
-                        </div>
-                    </div>
                   </CardBody>
                 </Col>
 
-                <Col className="wrapper">
+                <Col>
                   <CardBody >
                   <Navbar dark expand="md" >
                     <div className="header" >

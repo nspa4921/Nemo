@@ -38,7 +38,7 @@ export default function SimpleAccordion() {
                     <CardText align="left" >      
                     <h5><span className="fa fa-align-justify fa-lg"></span>CONCENTRIX INTERNATIONAL NORDIC AB</h5>        
                     <small> Apr. 2016 – Oct. 2020, Helsingborg, Sweden</small>
-                    <p >Role: Travel consultant for Hotels.com and Expedia.dk </p>
+                    <p>Role: Travel consultant for Hotels.com and Expedia.dk </p>
                     </CardText>
                     </Typography>
         </AccordionSummary>
