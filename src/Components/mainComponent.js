@@ -11,7 +11,7 @@ class Main extends Component {
     super(props);
 
     this.state = {
-      courses: COURSES
+      courses: COURSES,
     };
   }
 
@@ -20,9 +20,9 @@ class Main extends Component {
     return (
       <div>
         <Header />
-        <Aboutme />
+        <Aboutme/>
         <Experience />
-        <Education courses={this.state.courses}/> 
+        <Education courses={this.state.courses} /> 
         <Footer />
         {/* <Menu dishes={this.state.dishes} onClick={(dishId) => this.onDishSelect(dishId)} /> */}
         {/* <DishDetail dish={this.state.dishes.filter((dish) => dish.id === this.state.selectedDish)[0]} /> */}

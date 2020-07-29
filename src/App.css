@@ -124,7 +124,9 @@ span {
 }
 
 .my_image{
-  padding: 1px;
+  padding-left: 1px;
+  margin-left:1px;
+  float: left;
  }
 
 
