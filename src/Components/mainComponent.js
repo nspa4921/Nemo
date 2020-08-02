@@ -5,6 +5,7 @@ import Experience from '../Components/experienceComponent';
 import Footer from '../Components/footerComponent';
 import Education from '../Components/educationComponent'; 
 import { COURSES } from './shared/courses';
+import SimpleReactLightbox from "simple-react-lightbox";
 
 class Main extends Component {
   constructor(props) {
@@ -22,10 +23,10 @@ class Main extends Component {
         <Header />
         <Aboutme/>
         <Experience />
-        <Education courses={this.state.courses} /> 
+        <SimpleReactLightbox>
+          <Education courses={this.state.courses} /> 
+        </SimpleReactLightbox>
         <Footer />
-        {/* <Menu dishes={this.state.dishes} onClick={(dishId) => this.onDishSelect(dishId)} /> */}
-        {/* <DishDetail dish={this.state.dishes.filter((dish) => dish.id === this.state.selectedDish)[0]} /> */}
       </div>
     );
   }

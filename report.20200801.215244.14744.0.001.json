@@ -1,0 +1,567 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200801.215244.14744.0.001.json",
+    "dumpEventTime": "2020-08-01T21:52:44Z",
+    "dumpEventTimeStamp": "1596311564231",
+    "processId": 14744,
+    "threadId": null,
+    "cwd": "C:\\Users\\Nemanja\\desktop\\CV-React\\nemocv",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Nemanja\\Desktop\\CV-React\\nemocv\\node_modules\\terser-webpack-plugin\\node_modules\\jest-worker\\build\\workers\\processChild.js"
+    ],
+    "nodejsVersion": "v12.16.3",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.3",
+      "v8": "7.8.279.23-node.35",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.16.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1g",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.3/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-3317U CPU @ 1.70GHz",
+        "speed": 1696,
+        "user": 9816453,
+        "nice": 0,
+        "sys": 12351046,
+        "idle": 64113546,
+        "irq": 506515
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-3317U CPU @ 1.70GHz",
+        "speed": 1696,
+        "user": 10426546,
+        "nice": 0,
+        "sys": 11927468,
+        "idle": 63926562,
+        "irq": 79578
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-3317U CPU @ 1.70GHz",
+        "speed": 1696,
+        "user": 11650062,
+        "nice": 0,
+        "sys": 12565375,
+        "idle": 62065140,
+        "irq": 81328
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-3317U CPU @ 1.70GHz",
+        "speed": 1696,
+        "user": 11547125,
+        "nice": 0,
+        "sys": 11079984,
+        "idle": 63653468,
+        "irq": 55500
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "VirtualBox Host-Only Network",
+        "internal": false,
+        "mac": "0a:00:27:00:00:16",
+        "address": "fe80::35c2:e771:6efa:32e3",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 22
+      },
+      {
+        "name": "VirtualBox Host-Only Network",
+        "internal": false,
+        "mac": "0a:00:27:00:00:16",
+        "address": "192.168.56.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VirtualBox Host-Only Network #2",
+        "internal": false,
+        "mac": "0a:00:27:00:00:11",
+        "address": "fe80::6933:9640:51a3:ab95",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 17
+      },
+      {
+        "name": "VirtualBox Host-Only Network #2",
+        "internal": false,
+        "mac": "0a:00:27:00:00:11",
+        "address": "192.168.122.2",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "60:45:bd:f6:7f:6e",
+        "address": "2001:2012:10a:a500:5894:48f1:dc1a:2d",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "60:45:bd:f6:7f:6e",
+        "address": "fdbf:5fdf:f4c:0:5894:48f1:dc1a:2d",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "60:45:bd:f6:7f:6e",
+        "address": "2001:2012:10a:a500:fd2a:4640:d441:4012",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "60:45:bd:f6:7f:6e",
+        "address": "fdbf:5fdf:f4c:0:24b7:1479:ea9a:f07c",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "60:45:bd:f6:7f:6e",
+        "address": "fdbf:5fdf:f4c:0:61cd:3a5e:a7b3:8364",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "60:45:bd:f6:7f:6e",
+        "address": "fe80::5894:48f1:dc1a:2d",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 19
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "60:45:bd:f6:7f:6e",
+        "address": "192.168.1.209",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "Nemo"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff73c462449",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff73c4669a9",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff73c465828",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff73c59d8c2",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff73cdb9bbe",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff73cda1c91",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff73cc6e1ec",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff73cc4a103",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff73cc4840b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff73cc739ad",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff73cc756e4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff73cc6b743",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff73cc69db4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff73cc8afbd",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff73c9f16ff",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff73d206c4d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x0000028ea87e7014",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 204288000,
+    "totalCommittedMemory": 204288000,
+    "usedMemory": 168517960,
+    "availableMemory": 1967026968,
+    "memoryLimit": 2136997888,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759296,
+        "used": 3679336,
+        "available": 13079960
+      },
+      "old_space": {
+        "memorySize": 81145856,
+        "committedMemory": 81145856,
+        "capacity": 76134336,
+        "used": 76112960,
+        "available": 21376
+      },
+      "code_space": {
+        "memorySize": 692224,
+        "committedMemory": 692224,
+        "capacity": 388832,
+        "used": 388832,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 528384,
+        "committedMemory": 528384,
+        "capacity": 296800,
+        "used": 296800,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 88055808,
+        "committedMemory": 88055808,
+        "capacity": 88004440,
+        "used": 88004440,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16759296,
+        "used": 0,
+        "available": 16759296
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 8.093,
+    "kernelCpuSeconds": 0.796,
+    "cpuConsumptionPercent": 148.15,
+    "maxRss": 242413568,
+    "pageFaults": {
+      "IORequired": 102006,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 27,
+      "writes": 6
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "ACLOCAL_PATH": "/mingw64/share/aclocal:/usr/share/aclocal",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Nemanja\\AppData\\Roaming",
+    "BABEL_ENV": "production",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132327259430083022",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "NEMO",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "CONFIG_SITE": "/mingw64/etc/config.site",
+    "DISPLAY": "needs-to-be-defined",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "ESET_OPTIONS": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ",
+    "EXEPATH": "C:\\Program Files\\Git",
+    "FORCE_COLOR": "1",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "FP_NO_HOST_CHECK": "NO",
+    "HOME": "C:\\Users\\Nemanja",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Nemanja",
+    "HOSTNAME": "Nemo",
+    "INFOPATH": "/usr/local/info:/usr/share/info:/usr/info:/share/info",
+    "INIT_CWD": "C:\\Users\\Nemanja\\desktop\\CV-React\\nemocv",
+    "IOJS_ORG_MIRROR": "https://npm.taobao.org/mirrors/iojs",
+    "JEST_WORKER_ID": "2",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\Nemanja\\AppData\\Local",
+    "LOGONSERVER": "\\\\NEMO",
+    "MANPATH": "/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "/mingw64",
+    "MSYS": "enable_pcon",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "/mingw64",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODEJS_ORG_MIRROR": "https://npm.taobao.org/mirrors/node",
+    "NODE_ENV": "production",
+    "NODE_PATH": "",
+    "NODIST_IOJS_MIRROR": "https://npm.taobao.org/mirrors/iojs",
+    "NODIST_NODE_MIRROR": "https://npm.taobao.org/mirrors/node",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"build\"],\"original\":[\"build\"]}",
+    "npm_config_bin_links": "true",
+    "npm_config_ignore_optional": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_init_license": "MIT",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "npm_config_save_prefix": "^",
+    "npm_config_strict_ssl": "true",
+    "npm_config_user_agent": "yarn/1.22.4 npm/? node/v12.16.3 win32 x64",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_version_git_message": "v%s",
+    "npm_config_version_git_sign": "",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_tag_prefix": "v",
+    "npm_execpath": "C:\\Program Files (x86)\\Yarn\\bin\\yarn.js",
+    "npm_lifecycle_event": "build",
+    "npm_lifecycle_script": "react-scripts build",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_author_name": "Nemanja Spasic",
+    "npm_package_browserslist_development_0": "last 1 chrome version",
+    "npm_package_browserslist_development_1": "last 1 firefox version",
+    "npm_package_browserslist_development_2": "last 1 safari version",
+    "npm_package_browserslist_production_0": ">0.2%",
+    "npm_package_browserslist_production_1": "not dead",
+    "npm_package_browserslist_production_2": "not op_mini all",
+    "npm_package_dependencies_accordion": "^3.0.2",
+    "npm_package_dependencies_beauty_stars": "^1.1.0",
+    "npm_package_dependencies_bootstrap": "4.0.0",
+    "npm_package_dependencies_bootstrap_social": "5.1.1",
+    "npm_package_dependencies_font_awesome": "4.7.0",
+    "npm_package_dependencies_mdbreact": "^4.27.0",
+    "npm_package_dependencies_react": "^16.13.1",
+    "npm_package_dependencies_reactstrap": "^6.0.1",
+    "npm_package_dependencies_react_bootstrap": "^1.0.1",
+    "npm_package_dependencies_react_dom": "^16.13.1",
+    "npm_package_dependencies_react_modal": "^3.11.2",
+    "npm_package_dependencies_react_native_navbar": "^2.1.0",
+    "npm_package_dependencies_react_popper": "0.9.2",
+    "npm_package_dependencies_react_rating_stars_component": "^2.2.0",
+    "npm_package_dependencies_react_router_dom": "^5.2.0",
+    "npm_package_dependencies_react_scripts": "3.4.1",
+    "npm_package_dependencies_react_star_ratings": "^2.3.0",
+    "npm_package_dependencies_react_to_print": "^2.9.0",
+    "npm_package_dependencies_react_transition_group": "^4.4.1",
+    "npm_package_dependencies_simple_react_lightbox": "^3.2.3-3",
+    "npm_package_dependencies__material_ui_core": "^4.11.0",
+    "npm_package_dependencies__material_ui_icons": "^4.9.1",
+    "npm_package_dependencies__testing_library_jest_dom": "^4.2.4",
+    "npm_package_dependencies__testing_library_react": "^9.3.2",
+    "npm_package_dependencies__testing_library_user_event": "^7.1.2",
+    "npm_package_description": "In the project directory, you can run:",
+    "npm_package_eslintConfig_extends": "react-app",
+    "npm_package_license": "MIT",
+    "npm_package_main": "index.js",
+    "npm_package_name": "nemocv",
+    "npm_package_private": "true",
+    "npm_package_readmeFilename": "README.md",
+    "npm_package_scripts_build": "react-scripts build",
+    "npm_package_scripts_eject": "react-scripts eject",
+    "npm_package_scripts_start": "react-scripts start",
+    "npm_package_scripts_test": "react-scripts test",
+    "npm_package_version": "0.1.0",
+    "NUMBER_OF_PROCESSORS": "4",
+    "NVMW_IOJS_ORG_MIRROR": "https://npm.taobao.org/mirrors/iojs",
+    "NVMW_NODEJS_ORG_MIRROR": "https://npm.taobao.org/mirrors/node",
+    "NVMW_NPM_MIRROR": "https://npm.taobao.org/mirrors/npm",
+    "NVM_IOJS_ORG_MIRROR": "https://npm.taobao.org/mirrors/iojs",
+    "NVM_NODEJS_ORG_MIRROR": "https://npm.taobao.org/mirrors/node",
+    "OLDPWD": "/c/Users/Nemanja/desktop/CV-React",
+    "OneDrive": "C:\\Users\\Nemanja\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\Nemanja\\OneDrive",
+    "ORIGINAL_PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Nemanja\\bin;C:\\Python38\\Scripts;C:\\Python38;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files (x86)\\Yarn\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs;F:\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Nemanja\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Nemanja\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\Nemanja\\AppData\\Local\\Yarn\\bin;C:\\nodejs-v7.9.0;C:\\Users\\Nemanja\\AppData\\Roaming\\npm;F:\\bin",
+    "ORIGINAL_TEMP": "/tmp",
+    "ORIGINAL_TMP": "/tmp",
+    "OS": "Windows_NT",
+    "PATH": "C:\\Users\\Nemanja\\AppData\\Local\\Temp\\yarn--1596311450008-0.4693444782557834;C:\\Users\\Nemanja\\desktop\\CV-React\\nemocv\\node_modules\\.bin;C:\\Users\\Nemanja\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;C:\\Program Files\\libexec\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Users\\Nemanja\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Nemanja\\bin;C:\\Python38\\Scripts;C:\\Python38;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files (x86)\\Yarn\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs;F:\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Nemanja\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Nemanja\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\Nemanja\\AppData\\Local\\Yarn\\bin;C:\\nodejs-v7.9.0;C:\\Users\\Nemanja\\AppData\\Roaming\\npm;F:\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PKG_CONFIG_PATH": "/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 58 Stepping 9, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "3a09",
+    "ProgramData": "C:\\ProgramData",
+    "PROGRAMFILES": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "/c/Users/Nemanja/desktop/CV-React/nemocv",
+    "SESSIONNAME": "Console",
+    "SHELL": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "2",
+    "SSH_ASKPASS": "/mingw64/libexec/git-core/git-gui--askpass",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\Nemanja\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\Nemanja\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\Nemanja\\AppData\\Local\\Temp",
+    "USERDOMAIN": "NEMO",
+    "USERDOMAIN_ROAMINGPROFILE": "NEMO",
+    "USERNAME": "Nemanja",
+    "USERPROFILE": "C:\\Users\\Nemanja",
+    "VBOX_MSI_INSTALL_PATH": "C:\\Program Files\\Oracle\\VirtualBox\\",
+    "WINDIR": "C:\\WINDOWS",
+    "YARN_WRAP_OUTPUT": "false",
+    "_": "/usr/bin/winpty"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll"
+  ]
+}
