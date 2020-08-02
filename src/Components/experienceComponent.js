@@ -25,7 +25,7 @@ export default function SimpleAccordion() {
           <Container className="wrapper-right">  
             <Row >
                 <Col xs={12} md={6} className="wrapper"> 
-                <CardTitle align="left" className="occupation"><h2>WORKING EXPERIENCE</h2></CardTitle>
+                <CardTitle align="left" className="occupation"><h3>WORKING EXPERIENCE</h3></CardTitle>
                     <br></br>
           <Accordion>
         <AccordionSummary

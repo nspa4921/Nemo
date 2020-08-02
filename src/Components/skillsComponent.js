@@ -8,7 +8,7 @@ export default function SimpleAccordion() {
       return (     
         <Container>  
           <CardTitle align="left" className="occupation">
-            <h2>SKILLS</h2>
+            <h3>SKILLS</h3>
             <br></br>
             </CardTitle>
             <CardTitle align="left" className="occupation">

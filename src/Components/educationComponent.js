@@ -30,7 +30,7 @@ class Education extends Component {
           <Container className="wrapper-right">
             <Row>
               <Col xs={12} md={6} className="wrapper" >                       
-                <CardTitle align="left" className="occupation"><h2>EDUCATION</h2></CardTitle>      
+                <CardTitle align="left" className="occupation"><h3>EDUCATION</h3></CardTitle>      
                 <MDBListGroup >
                   <MDBListGroupItem>
                       <div className="d-flex w-100 justify-content-between">
@@ -49,7 +49,7 @@ class Education extends Component {
                 </MDBListGroup>
               </Col>
               <Col xs={12} md={6} className="wrapper">         
-                <CardTitle align="left" className="occupation"><h2>COURSES</h2></CardTitle> 
+                <CardTitle align="left" className="occupation"><h3>COURSES</h3></CardTitle> 
                 <br></br>
                 <SRLWrapper>  
                 {courses}
