@@ -68,10 +68,10 @@ export default function SimpleAccordion() {
                 <h6>LANGUAGUES</h6>
               </CardTitle>
               <Row>
-                <Col xs="12" sm="9" md="4" align="left" className="occupation">
+                <Col xs="7" sm="9" md="4" align="left" className="occupation">
                 <CardText style={{ fontSize: 12.5 }} >▷ Danish (Advanced) </CardText> 
                 </Col>
-                <Col xs="12" sm="3" md="8" align="left">
+                <Col xs="5" sm="3" md="8" align="left">
                 <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
                     <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
                     <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
@@ -80,10 +80,10 @@ export default function SimpleAccordion() {
                 </Col>
               </Row>
               <Row>
-                <Col xs="12" sm="9" md="4" align="left" className="occupation">
+                <Col xs="7" sm="9" md="4" align="left" className="occupation">
                 <CardText style={{ fontSize: 12.5 }} >▷ English (Advanced) </CardText> 
                 </Col>
-                <Col xs="12" sm="3" md="8" align="left">
+                <Col xs="5" sm="3" md="8" align="left">
                 <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
                     <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
                     <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
@@ -92,10 +92,10 @@ export default function SimpleAccordion() {
                 </Col>
               </Row>
               <Row>
-                <Col xs="12" sm="9" md="4" align="left" className="occupation">
+                <Col xs="7" sm="9" md="4" align="left" className="occupation">
                 <CardText style={{ fontSize: 12.5 }} >▷ Hungarian (Native) </CardText> 
                 </Col>
-                <Col xs="12" sm="3" md="8" align="left">
+                <Col xs="5" sm="3" md="8" align="left">
                 <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
                     <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
                     <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
@@ -104,10 +104,10 @@ export default function SimpleAccordion() {
                 </Col>
               </Row>
               <Row>
-                <Col xs="12" sm="9" md="4"align="left" className="occupation">
+                <Col xs="7" sm="9" md="4"align="left" className="occupation">
                 <CardText style={{ fontSize: 12.5 }}>▷ Serbian (Native)</CardText> 
                 </Col>
-                <Col xs="12" sm="3" md="8" align="left">
+                <Col xs="5" sm="3" md="8" align="left">
                 <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
                     <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
                     <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
@@ -116,10 +116,10 @@ export default function SimpleAccordion() {
                 </Col>
               </Row>
               <Row>
-                <Col xs="12" sm="9" md="4" align="left" className="occupation">
+                <Col xs="7" sm="9" md="4" align="left" className="occupation">
                 <CardText style={{ fontSize: 12.5 }}>▷ Swedish (Beginner)</CardText> 
                 </Col>
-                <Col xs="12" sm="3" md="8"align="left">
+                <Col xs="5" sm="3" md="8"align="left">
                 <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
                     <Icon className="fa fa-star checked" style={{ fontSize: 13 }} />
                     <Icon className="fa fa-star unchecked" style={{ fontSize: 13 }} />
