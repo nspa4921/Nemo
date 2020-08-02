@@ -7,7 +7,7 @@ import Picture from './pictureComponent';
       return (
         <Container className="wrapper-right">  
             <Row>
-              <Col xs={10} md={5} className="wrapper">           
+              <Col xs={12} md={6} className="wrapper">           
                 <Picture/>  
               </Col>
               <Col xs={12} md={6} className="wrapper">  
