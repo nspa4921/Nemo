@@ -75,7 +75,7 @@ class Header extends Component {
                 </Col>
 
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal} className="contact">
-                <ModalHeader toggle={this.toggleModal}>CONTACT ME</ModalHeader>
+                <ModalHeader toggle={this.toggleModal} className="contact_header">CONTACT ME</ModalHeader>
                     <ModalBody className="contactBody">
                     <Form onSubmit={this.handleLogin}>
                             <FormGroup>
