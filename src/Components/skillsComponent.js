@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Container, Row, Col, CardTitle, CardText, } from 'reactstrap';
 import Icon from '@material-ui/core/Icon';
 
@@ -64,9 +64,9 @@ export default function SimpleAccordion() {
 
                 <hr/>
                 <br></br>
-            <CardTitle align="left" className="occupation">
+              <CardTitle align="left" className="occupation">
                 <h6>LANGUAGUES</h6>
-            </CardTitle>
+              </CardTitle>
               <Row>
                 <Col xs="12" sm="9" md="4" align="left" className="occupation">
                 <CardText style={{ fontSize: 12.5 }} >▷ Danish (Advanced) </CardText> 

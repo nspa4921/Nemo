@@ -5,7 +5,7 @@ import image from '../assets/download.png';
     render(){
       return(
         <div>
-        <img className="picture" src={image} alt="profile picture"/>
+        <image className="picture" src={image} alt="profilepic"/>
         </div>
      );
     }

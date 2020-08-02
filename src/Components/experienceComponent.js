@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { CardBody, Container, Row, Col, CardTitle, CardText, } from 'reactstrap';
 import Skills from '../Components/skillsComponent';
 import { makeStyles } from '@material-ui/core/styles';

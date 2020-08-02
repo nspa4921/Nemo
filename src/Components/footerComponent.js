@@ -12,7 +12,7 @@ function Footer(props) {
                 </Col>
                 <Col xs="6" sm="6">
                     <div className="footer" align="right">
-                        <a href="#" class="top">SCROLL TO TOP</a> / <a class="contact_link" href="#contact">CONTACT</a>
+                        <a href="#top" class="top">SCROLL TO TOP</a> / <a class="contact_link" href="#contact">CONTACT</a>
                     </div>
                 </Col>
         </Row>
