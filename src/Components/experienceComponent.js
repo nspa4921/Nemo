@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Collapse, Button, CardBody, Card, Container, Row, Col, CardTitle, CardText, } from 'reactstrap';
+import React, { Component } from 'react';
+import { CardBody, Container, Row, Col, CardTitle, CardText, } from 'reactstrap';
 import Skills from '../Components/skillsComponent';
 import { makeStyles } from '@material-ui/core/styles';
 import Accordion from '@material-ui/core/Accordion';

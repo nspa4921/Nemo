@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Collapse, Button, CardBody, Card, Container, Row, Col, CardTitle, CardText, } from 'reactstrap';
+import React, { Component } from 'react';
+import { Container, Row, Col, CardTitle, CardText, } from 'reactstrap';
 import Icon from '@material-ui/core/Icon';
 
 
