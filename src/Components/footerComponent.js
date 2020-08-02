@@ -10,7 +10,7 @@ function Footer(props) {
                         <p>@ Nemo 2020</p>
                     </div>
                 </Col>
-                <Col xs="6" sm="6">
+                <Col xs="12" sm="6">
                     <div className="footer" align="right">
                         <a href="#top" class="top">SCROLL TO TOP</a> / <a class="contact_link" href="#contact">CONTACT</a>
                     </div>
