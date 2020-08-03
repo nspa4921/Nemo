@@ -51,7 +51,7 @@ class Header extends Component {
                                 <NavLink className="nav-link" href="/" to='#'><span className="fa fa-print fa-lg"></span> PRINT</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" href="/" to='#'><span className="fa fa-download fa-lg"></span> DOWNLOAD </NavLink>
+                                <NavLink className="nav-link" href="http://ns-app.com/cv/Nemanja_Spasic-CV_en.pdf" to='#'><span className="fa fa-download fa-lg"></span> DOWNLOAD </NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink className="nav-link"  href="/" to='#' onClick={this.toggleModal}><span className="fa fa-envelope fa-lg"></span> CONTACT</NavLink>
