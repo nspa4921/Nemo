@@ -8,13 +8,13 @@ import Picture from './pictureComponent';
         <div>
         <Container className="wrapper-right">  
             <Row>
-              <Col xs={12}  className="wrapper">  
+              <Col xs={12} md={6} className="wrapper">  
               <CardBody>         
                 <Picture/>  
               </CardBody>
               </Col>
 
-              <Col xs={12}  className="wrapper">  
+              <Col xs={12} md={6} className="wrapper">  
                 <CardBody>
                   <CardTitle align="left" className="occupation"><h3>ABOUT ME</h3></CardTitle>
                     <CardText align="justify" className="occupation">
