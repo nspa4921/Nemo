@@ -15,7 +15,6 @@ class Main extends Component {
       courses: COURSES,
     };
   }
-
  
   render() {
     return (
