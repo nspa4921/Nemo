@@ -13,7 +13,7 @@ const useStyles = makeStyles(theme => ({
     "& .MuiPaper-root": {
       color: "white",
       background: "transparent",
-      boxShadow: "0px 1px 0px 0px rgba(117,117,117,1)",
+      boxShadow: "0px 0.5px 0px 0px rgba(117,117,117,0.3)",
     }
   }
 }));
@@ -22,24 +22,23 @@ export default function SimpleAccordion() {
   const classes = useStyles();
       return (
         <div className={classes.root}>
-          <Container className="wrapper-right">  
+          <Container className="wrapper-right" >  
             <Row >
                 <Col xs={12} md={6} className="wrapper"> 
+                <CardBody>  
                 <CardTitle align="left" className="occupation"><h3>WORKING EXPERIENCE</h3></CardTitle>
                     <br></br>
           <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
+          id="panel1a-header">
           <Typography className={classes.heading}>   
                     <CardText align="left" >      
                     <h7><span className="fa fa-align-justify fa-lg"></span> CONCENTRIX INTERNATIONAL NORDIC AB</h7><br></br>        
                     <small className="text-muted"> Apr. 2016 – Oct. 2020, Helsingborg, Sweden</small>
                     <p className="occupation">Role: Travel consultant for Hotels.com and Expedia.dk </p>
                     </CardText>
-                    </Typography>
+            </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -50,11 +49,9 @@ export default function SimpleAccordion() {
         </AccordionDetails>
       </Accordion>
       <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
+          id="panel1a-header" >
           <Typography className={classes.heading}>   
                     <CardText align="left" >      
                     <h7><span className="fa fa-align-justify fa-lg"></span> MUNKEBJERG HOTEL</h7>  
@@ -140,7 +137,7 @@ export default function SimpleAccordion() {
           </Typography>
         </AccordionDetails>
       </Accordion>       
-                
+                </CardBody>
               </Col>
               <Col className="wrapper">
                   <Skills />

@@ -42,21 +42,11 @@
   .fa {
     margin-right: 5px;
   }
-  
-  .card-body {
-      margin: 1px;
-  }
 
-  #CardBody .fa{
-    padding-right: 16px!important;
-  }
-  
-  /* .author_name
-  {
-    font: 80px Verdana, Arial, Helvetica, sans-serif;
-   margin: 6px 0 -6px 0;
-  } */
-  
+  .MuiAccordionSummary-root {
+    padding : 0 !important;
+ }
+
   .occupation {
     font-size: 12.8px;
     color: white;
@@ -123,13 +113,24 @@
   .logo {
       font-size: 42px;
       color: snow;
-    text-shadow:
+      text-shadow:
      -2px -2px 0 #000,  
       2px -2px 0 #000,
       -2px 2px 0 #000,
        2px 2px 0 #000;
   }
   
+
+  @media only screen and (max-width: 467px) {
+    .header-logo h1 {
+      padding: 0px 0px 0px 0px;
+      font-size: 30px;
+     }
+     .header-logo h4 {
+      font-size: 18px;
+     }
+}
+
   span {
     margin-right: 10px;
     margin-top:5px;
@@ -166,18 +167,6 @@
     float: left;
    }
 
-   @media only screen and (max-width: 460px) {
-    .picture {
-    height: 210px;
-    width: 200px;
-    border-radius: 50%; 
-    margin: 10;
-    padding: 10px;
-    border: 5px solid rgba(255, 255, 255, .5);
-    max-width: 100%;
-     }
-}
-  
    .picture {
     height: 370px;
     width: 380px;
@@ -188,6 +177,18 @@
     max-width: 100%;
    }
 
+   @media only screen and (max-width: 467px) {
+    .picture {
+    height: 270px;
+    width: 280px;
+    border-radius: 50%; 
+    margin: 0;
+    padding: 5px;
+    border: 5px solid rgba(255, 255, 255, .5);
+    max-width: 100%;
+     }
+}
+  
    .social{
      margin:0px;
      padding:0px;
@@ -196,11 +197,11 @@
   .expdescription  {
     font-size: 13px;
     color: white;
-  text-shadow:
-   -1px -1px 0 #000,  
+    text-shadow:
+    -1px -1px 0 #000,  
     1px -1px 0 #000,
     -1px 1px 0 #000,
-     1px 1px 0 #000;
+    1px 1px 0 #000;
   }
  
   .App-link {
@@ -253,70 +254,21 @@ z-index: 9999;
 .contact_header {
   color: white;
   background-color: grey;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid red;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
 }
 
-.overlay 
-{ background: black;
-display: block;	
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-z-index: 8888; }
-
-.contact_form h3
-{
-font-size: 36px;
-margin: 0 0 20px;
+.card-body .navbar {
+  padding: 1px;
 }
-
-.contact_form input, textarea
-{background: #1b1b1b;
-border: 1px solid #333333;
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
-color: white;
-padding: 3px 5px;
-font: 12px Verdana, Arial, sans-serif;}
-
-.contact_form input
-{height: 20px;
-width: 150px;
-}  
-
-.contact_form textarea
-{width: 250px;
-height: 125px;
+.navbar .nav-link {
+  display: block;
+  padding: 0.50rem 0rem;
 }
-
-.contact_form input#form_submit
-{height: 30px;
-padding: 0 0 2px 0;
-background: -moz-linear-gradient(top, #424242,#282828);}
-
-.contact_form input#form_submit:hover
-{background: -moz-linear-gradient(top,#282828, #424242);
-cursor: pointer;
-}
-
-.contact_form p
-{position: relative;
-margin: 0 0 15px 0;}
-
-/* .contact_form p label
-{position: absolute;
-top:3px;
-left: 10px;
-color: #7b7b7b;
-display: none;} */
-
-
-/* .success
-{color: green;
-position: absolute;
-top: 155px;
-left: 145px;
-padding: 5px 0 7px 40px;
-/* background: url(../images/success.png) no-repeat top left; */

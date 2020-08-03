@@ -5,13 +5,16 @@ import Picture from './pictureComponent';
 
     const Aboutme = (props) => {
       return (
+        <div>
         <Container className="wrapper-right">  
-            <Row>
-              <Col xs={12} md={6} className="wrapper">           
+            <Row style={{padding:"5px"}}>
+              <Col xs={12} md={6} className="wrapper">  
+              <CardBody>         
                 <Picture/>  
+              </CardBody>
               </Col>
               <Col xs={12} md={6} className="wrapper">  
-                <CardBody >
+                <CardBody>
                   <CardTitle align="left" className="occupation"><h3>ABOUT ME</h3></CardTitle>
                     <CardText align="justify" className="occupation">
                       Passionate hard-working web developer with over 2 years of front end experience for implementing and maintaining responsive websites and mobile applications. Highly skilled in HTML, CSS, jQuery, JavaScript, React and React-Native. Open-minded and a quick learner, able to pick up on new processes, systems, and technologies quickly.  Strong operational skills, professional trained in business management and administration.
@@ -51,7 +54,7 @@ import Picture from './pictureComponent';
               </Col>
             </Row>
         </Container>
-
+        </div>
       );
     }
     

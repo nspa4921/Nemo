@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavbarToggler, Collapse, NavItem,
-    Button, Modal, ModalHeader, ModalBody,
+import { Navbar, Nav, NavbarToggler, Collapse, NavItem, Button, Modal, ModalHeader, ModalBody,
     Form, FormGroup, Input, Label, Col, CardBody, Container, Row } from 'reactstrap';
 import { NavLink, BrowserRouter } from 'react-router-dom';
 
@@ -10,7 +9,6 @@ class Header extends Component {
     
         this.toggleNav = this.toggleNav.bind(this);
         this.toggleModal = this.toggleModal.bind(this);
-        // this.handleLogin = this.handleLogin.bind(this);
         this.state = {
           isNavOpen: false,
           isModalOpen: false
@@ -29,19 +27,11 @@ class Header extends Component {
           });
       }
 
-    //   handleLogin(event) {
-    //     this.toggleModal();
-    //     alert("Username: " + this.username.value + " Password: " + this.password.value
-    //         + " Remember: " + this.remember.checked);
-    //     event.preventDefault();
-
-    // }
-
     render() {
         return(
             <Container className="wrapper-right">  
               <Row className="wrapper-header">
-                <Col sm="6" xs="7" >
+                <Col md="6" xs="6">
                   <CardBody className="occupation">
                             <div className="header-logo">
                                 <h1 align="left">NEMANJA SPASIC</h1>
@@ -49,12 +39,12 @@ class Header extends Component {
                             </div>
                   </CardBody>
                 </Col>
-              <Col sm="6" xs="5">
-                  <CardBody className="occupation">
-                <Navbar dark expand="md">
+              <Col md="6" xs="6">
+                  <CardBody className="occupation" style={{padding:"-1px"}}>
+                <Navbar dark expand="md" >
                     <div className="header">
                         <NavbarToggler onClick={this.toggleNav} />
-                        <Collapse isOpen={this.state.isNavOpen} navbar>
+                        <Collapse isOpen={this.state.isNavOpen} navbar >
                           <BrowserRouter>
                             <Nav vertical align="left">
                             <NavItem>
@@ -79,13 +69,13 @@ class Header extends Component {
                     <ModalBody className="contactBody">
                     <Form onSubmit={this.handleLogin}>
                             <FormGroup>
-                                <Label htmlFor="username">Name</Label>
-                                <Input type="text" id="username" name="username"
-                                    innerRef={(input) => this.username = input} />
+                                <Label htmlFor="name">Name</Label>
+                                <Input type="text" id="name" name="name"
+                                    innerRef={(input) => this.name = input} />
                             </FormGroup>
                             <FormGroup>
-                                <Label htmlFor="username">Company Name</Label>
-                                <Input type="text" id="username" name="username" className="contact_form"
+                                <Label htmlFor="Companyname">Company Name</Label>
+                                <Input type="text" id="companyname" name="companyname" className="contact_form"
                                     innerRef={(input) => this.username = input} />
                             </FormGroup>
                             <FormGroup>

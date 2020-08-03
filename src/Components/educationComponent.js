@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Media, Container, CardTitle } from 'reactstrap'; 
+import { Row, Col, Media, Container, CardTitle, CardBody } from 'reactstrap'; 
 import { MDBListGroup, MDBListGroupItem } from "mdbreact";
 import { SRLWrapper } from "simple-react-lightbox";
 
@@ -9,14 +9,14 @@ class Education extends Component {
       const courses = this.props.courses.map((cours) => {
           return (     
               <Row>
-                <Col xs="3"  md="2.5">
+                <Col xs="3"  md="3">
                   <Media className="my_image">
                     <Media href="#">
                       <Media  right width="100%" src={cours.image} alt={cours.name} />
                     </Media>
                   </Media>
                 </Col> 
-                <Col xs="9"  md="9.5" align="justify">
+                <Col xs="9"  md="9" align="justify">
                         <h6 align="left" className="occupation">{cours.name}</h6>
                         <small className="text-muted">{cours.description}</small> 
                         <br></br>
@@ -29,7 +29,8 @@ class Education extends Component {
       return (      
           <Container className="wrapper-right">
             <Row>
-              <Col xs={12} md={6} className="wrapper" >                       
+              <Col xs={12} md={6} className="wrapper" >     
+              <CardBody>                 
                 <CardTitle align="left" className="occupation"><h3>EDUCATION</h3></CardTitle>      
                 <MDBListGroup >
                   <MDBListGroupItem>
@@ -47,13 +48,16 @@ class Education extends Component {
                     <p className="mb-1" align="left">Senta, Serbia </p>
                   </MDBListGroupItem>
                 </MDBListGroup>
+                </CardBody> 
               </Col>
-              <Col xs={12} md={6} className="wrapper">         
-                <CardTitle align="left" className="occupation"><h3>COURSES</h3></CardTitle> 
-                <br></br>
-                <SRLWrapper>  
-                {courses}
-                </SRLWrapper>
+              <Col xs={12} md={6} className="wrapper">   
+                <CardBody>      
+                  <CardTitle align="left" className="occupation"><h3>COURSES</h3></CardTitle> 
+                  <br></br>
+                  <SRLWrapper>  
+                  {courses}
+                  </SRLWrapper>
+                </CardBody>
               </Col>
           </Row>
         </Container>
