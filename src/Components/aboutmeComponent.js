@@ -7,13 +7,14 @@ import Picture from './pictureComponent';
       return (
         <div>
         <Container className="wrapper-right">  
-            <Row style={{padding:"5px"}}>
-              <Col xs={12} md={6} className="wrapper">  
+            <Row>
+              <Col xs={12}  className="wrapper">  
               <CardBody>         
                 <Picture/>  
               </CardBody>
               </Col>
-              <Col xs={12} md={6} className="wrapper">  
+
+              <Col xs={12}  className="wrapper">  
                 <CardBody>
                   <CardTitle align="left" className="occupation"><h3>ABOUT ME</h3></CardTitle>
                     <CardText align="justify" className="occupation">
