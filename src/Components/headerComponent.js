@@ -52,7 +52,7 @@ class Header extends Component {
                             <NavItem>
                                 <NavLink className="nav-link" href="http://ns-app.com/cv1/nemanja_spasic-cv_en.pdf"><span className="fa fa-download fa-lg"></span> DOWNLOAD </NavLink>
                             </NavItem>
-                            <NavItem className="link">
+                            <NavItem>
                                 <NavLink onClick={this.toggleModal} className="link" style={{cursor: 'pointer'}}><span className="fa fa-envelope fa-lg"></span> CONTACT</NavLink>
                             </NavItem>
                             </Nav> 
