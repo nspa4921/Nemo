@@ -30,7 +30,7 @@ class Header extends Component {
         return(
             <Container className="wrapper-right">  
               <Row className="wrapper-header">
-                <Col md="6" xs="6">
+                <Col xs="6">
                   <CardBody className="occupation">
                             <div className="header-logo">
                                 <h1 align="left">NEMANJA SPASIC</h1>
@@ -38,8 +38,8 @@ class Header extends Component {
                             </div>
                   </CardBody>
                 </Col>
-              <Col md="6" xs="6">
-                  <CardBody className="occupation" style={{padding:"-1px"}}>
+              <Col xs="6">
+                  <CardBody className="occupation" align="center">
                 <Navbar dark expand="md" >
                     <div className="header">
                         <NavbarToggler onClick={this.toggleNav} />
