@@ -136,6 +136,40 @@ export default function SimpleAccordion() {
                 </CardBody>
           </Typography>
         </AccordionDetails>
+      </Accordion>
+
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography className={classes.heading}>   
+                    <CardText align="left" >      
+                    <h7><span className="fa fa-align-justify fa-lg"></span> Panacomp Wonderland Travel Serbia </h7>
+                    <br></br>
+                    <small className="text-muted">Oct. 2007 – Oct. 2009, Novi Sad </small>
+                    <p className="occupation">Role: Web designer, Advisor and Organizer of tourist packages </p>
+                    </CardText>
+                    </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          <CardBody>
+                    <CardText align="left" className="occupation" >
+                     
+                    <p>Tasks & responsibilities: </p>
+                    <ul>
+                        <li>Developing, maintenance & administration of www.panacomp.net, </li>
+                        <li>Implementing & customizing a WordPress plugin</li>
+                        <li>Uploading texts, photos and videos, using HTML, XHTML, CSS, PHP, MySQL,</li>
+                        <li>Developing of tourism programs ,</li>
+                        <li>Creating a Promotional Flyers in Photoshop </li>
+                    </ul>
+                    </CardText>
+                </CardBody>
+          </Typography>
+        </AccordionDetails>
       </Accordion>       
                 </CardBody>
               </Col>

@@ -43,8 +43,7 @@ class Header extends Component {
                 <Navbar dark expand="md" >
                     <div className="header">
                         <NavbarToggler onClick={this.toggleNav} />
-                        <Collapse isOpen={this.state.isNavOpen} navbar >
-                         
+                        <Collapse isOpen={this.state.isNavOpen} navbar >  
                             <Nav vertical align="left">
                             <NavItem>
                                 <NavLink className="nav-link" href="/" to='#'><span className="fa fa-print fa-lg"></span> PRINT</NavLink>
@@ -55,8 +54,7 @@ class Header extends Component {
                             <NavItem>
                                 <NavLink className="nav-link"  href="/" to='#' onClick={this.toggleModal}><span className="fa fa-envelope fa-lg"></span> CONTACT</NavLink>
                             </NavItem>
-                            </Nav> 
-                            
+                            </Nav>                    
                         </Collapse>
                     </div>
                 </Navbar>
