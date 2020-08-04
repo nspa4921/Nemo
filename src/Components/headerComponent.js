@@ -25,7 +25,7 @@ class Header extends Component {
               isModalOpen: !this.state.isModalOpen
           });
       }
-
+      
     render() {
         return(
             <Container className="wrapper-right">  
@@ -43,18 +43,20 @@ class Header extends Component {
                 <Navbar dark expand="md" >
                     <div className="header">
                         <NavbarToggler onClick={this.toggleNav} />
-                        <Collapse isOpen={this.state.isNavOpen} navbar >  
+                        <Collapse isOpen={this.state.isNavOpen} navbar >
+                          
                             <Nav vertical align="left">
                             <NavItem>
-                                <NavLink className="nav-link" href="/" to='#'><span className="fa fa-print fa-lg"></span> PRINT</NavLink>
+                                <NavLink className="nav-link" href="/" ><span className="fa fa-print fa-lg"></span> PRINT</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="http://www.ns-app.com/cv1/nemanja_spasic-cv_en.pdf" ><span className="fa fa-download fa-lg"></span> DOWNLOAD </NavLink>
+                                <NavLink className="nav-link" href="http://ns-app.com/cv1/nemanja_spasic-cv_en.pdf"><span className="fa fa-download fa-lg"></span> DOWNLOAD </NavLink>
                             </NavItem>
-                            <NavItem>
-                                <NavLink className="nav-link"  href="/" to='#' onClick={this.toggleModal}><span className="fa fa-envelope fa-lg"></span> CONTACT</NavLink>
+                            <NavItem className="link">
+                                <NavLink onClick={this.toggleModal} className="link" style={{cursor: 'pointer'}}><span className="fa fa-envelope fa-lg"></span> CONTACT</NavLink>
                             </NavItem>
-                            </Nav>                    
+                            </Nav> 
+                            
                         </Collapse>
                     </div>
                 </Navbar>

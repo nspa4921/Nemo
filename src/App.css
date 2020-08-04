@@ -267,7 +267,11 @@ z-index: 9999;
 .card-body .navbar {
   padding: 1px;
 }
-.navbar .nav-link {
+.navbar .nav-link{
   display: block;
   padding: 0.50rem 0rem;
 }
+
+.link { color: white }
+.link:hover { color:rgb(53, 100, 187); } 
+
