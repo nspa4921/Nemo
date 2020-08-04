@@ -161,9 +161,9 @@ export default function SimpleAccordion() {
                     <p>Tasks & responsibilities: </p>
                     <ul>
                         <li>Developing, maintenance & administration of www.panacomp.net, </li>
-                        <li>Implementing & customizing a WordPress plugin</li>
-                        <li>Uploading texts, photos and videos, using HTML, XHTML, CSS, PHP, MySQL,</li>
-                        <li>Developing of tourism programs ,</li>
+                        <li>Implementing & customizing a WordPress plugins,</li>
+                        <li>Uploading text, photos and videos by using HTML, XHTML, CSS, PHP, MySQL,</li>
+                        <li>Developing of tourism programs,</li>
                         <li>Creating a promotional flyers in Photoshop </li>
                     </ul>
                     </CardText>
