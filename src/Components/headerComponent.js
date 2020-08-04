@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, NavbarToggler, Collapse, NavItem, Button, Modal, ModalHeader, ModalBody,
-    Form, FormGroup, Input, Label, Col, CardBody, Container, Row } from 'reactstrap';
-import { NavLink, BrowserRouter } from 'react-router-dom';
+    Form, FormGroup, Input, Label, Col, CardBody, Container, Row, NavLink } from 'reactstrap';
 
 class Header extends Component {
     constructor(props) {
@@ -45,19 +44,19 @@ class Header extends Component {
                     <div className="header">
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar >
-                          <BrowserRouter>
+                         
                             <Nav vertical align="left">
                             <NavItem>
                                 <NavLink className="nav-link" href="/" to='#'><span className="fa fa-print fa-lg"></span> PRINT</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" href="http://ns-app.com/cv/Nemanja_Spasic-CV_en.pdf" to='#'><span className="fa fa-download fa-lg"></span> DOWNLOAD </NavLink>
+                                <NavLink href="http://www.ns-app.com/cv1/nemanja_spasic-cv_en.pdf" ><span className="fa fa-download fa-lg"></span> DOWNLOAD </NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink className="nav-link"  href="/" to='#' onClick={this.toggleModal}><span className="fa fa-envelope fa-lg"></span> CONTACT</NavLink>
                             </NavItem>
                             </Nav> 
-                            </BrowserRouter>
+                            
                         </Collapse>
                     </div>
                 </Navbar>
