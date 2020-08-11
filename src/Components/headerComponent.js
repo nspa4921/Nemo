@@ -31,7 +31,7 @@ class Header extends Component {
         return (
             <div className="wrapper">
                 <Navbar className="wrapper-right container" color="transparent" expand="md" dark>
-                    <NavbarBrand href="#" className="header-logo occupation"><h2>NEMANJA SPASIC</h2> <h3 align="left">CV</h3></NavbarBrand>
+                    <NavbarBrand href="#" className="mr-auto header-logo occupation"><h2>NEMANJA SPASIC</h2> <h3 align="left">CV</h3></NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto occupation" navbar>
