@@ -1,6 +1,6 @@
 import React, { Component} from 'react'
 import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Button, Modal, ModalHeader, ModalBody, Form, 
-FormGroup, Label, Input, Row, Col, CardBody } from 'reactstrap';
+FormGroup, Label, Input, Row, CardBody } from 'reactstrap';
 
 class Header extends Component {
     constructor(props) {
