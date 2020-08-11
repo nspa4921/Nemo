@@ -31,18 +31,18 @@ class Header extends Component {
         return (
             <div className="wrapper-right container"> 
                 <Navbar className="wrapper" color="transparent" expand="md" dark>
-                    <NavbarBrand href="#" className="occupation" align="left"><h2>NEMANJA SPASIC</h2>CV</NavbarBrand>
+                    <NavbarBrand href="#" className="mr-auto occupation" align="left"><h2>NEMANJA SPASIC</h2>CV</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
-                        <Nav className="occupation" navbar>
+                        <Nav className="ml-auto occupation" navbar>
                             <NavItem>
-                            <NavLink  href="/"><span className="fa fa-print fa-lg"></span>PRINT</NavLink>
+                            <NavLink className="nav-link" href="/"><span className="fa fa-print fa-lg"></span>PRINT</NavLink>
                             </NavItem>
                             <NavItem>
-                            <NavLink  href="http://ns-app.com/cv1/nemanja_spasic-cv_en.pdf"><span className="fa fa-download fa-lg"></span>DOWNLOAD </NavLink>
+                            <NavLink className="nav-link" href="http://ns-app.com/cv1/nemanja_spasic-cv_en.pdf"><span className="fa fa-download fa-lg"></span>DOWNLOAD </NavLink>
                             </NavItem>
                             <NavItem>
-                            <NavLink onClick={this.toggleModal} style={{cursor: 'pointer'}}><span className="fa fa-envelope fa-lg"></span>CONTACT</NavLink>
+                            <NavLink onClick={this.toggleModal} className="nav-link" style={{cursor: 'pointer'}}><span className="fa fa-envelope fa-lg"></span>CONTACT</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
