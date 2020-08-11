@@ -1,6 +1,6 @@
 import React, { Component} from 'react'
 import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Button, Modal, ModalHeader, ModalBody, Form, 
-FormGroup, Label, Input, Row, Col } from 'reactstrap';
+FormGroup, Label, Input, Row, Col, CardBody } from 'reactstrap';
 
 class Header extends Component {
     constructor(props) {
@@ -31,11 +31,10 @@ class Header extends Component {
         return (
             <div className="wrapper">
                 <Row>
-                   <Col>
+                   <CardBody>
                 <Navbar className="wrapper-right container" color="transparent" expand="md" dark>
                     <NavbarBrand href="#" className="occupation" align="left"><h2>NEMANJA SPASIC</h2> <h3>CV</h3></NavbarBrand>
-                    
-                    
+
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto occupation" navbar>
@@ -51,7 +50,7 @@ class Header extends Component {
                         </Nav>
                     </Collapse>
                 </Navbar>
-                </Col>
+                </CardBody>
                 </Row>
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal} className="contact">
                     <ModalHeader toggle={this.toggleModal} className="contact_header">CONTACT ME</ModalHeader>
