@@ -1,6 +1,6 @@
 import React, { Component} from 'react'
 import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Button, Modal, ModalHeader, ModalBody, Form, 
-FormGroup, Label, Input, Row, CardBody } from 'reactstrap';
+FormGroup, Label, Input, Row, CardBody, Container } from 'reactstrap';
 
 class Header extends Component {
     constructor(props) {
@@ -29,7 +29,7 @@ class Header extends Component {
     render() {
         
         return (
-            <div className="wrapper">
+            <Container className="wrapper"> 
                 <Row>
                    <CardBody>
                 <Navbar className="wrapper-right container" color="transparent" expand="md" dark>
@@ -74,7 +74,7 @@ class Header extends Component {
                         </Form>
                     </ModalBody>
                 </Modal>
-            </div>
+            </Container>
         )
     }
 }
