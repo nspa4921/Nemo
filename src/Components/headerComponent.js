@@ -33,8 +33,7 @@ class Header extends Component {
                 <Row>
                    <CardBody>
                 <Navbar className="wrapper-right container" color="transparent" expand="md" dark>
-                    <NavbarBrand href="#" className="occupation" align="left"><h2>NEMANJA SPASIC</h2> <h3>CV</h3></NavbarBrand>
-
+                    <NavbarBrand href="#" className="occupation" align="left"><h2>NEMANJA SPASIC</h2>CV</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto occupation" navbar>
