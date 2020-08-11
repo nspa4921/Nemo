@@ -30,8 +30,6 @@ class Header extends Component {
         
         return (
             <Container className="wrapper-right"> 
-                <Row>
-                   <CardBody>
                 <Navbar className="wrapper" color="transparent" expand="md" dark>
                     <NavbarBrand href="#" className="occupation" align="left"><h2>NEMANJA SPASIC</h2>CV</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
@@ -49,8 +47,6 @@ class Header extends Component {
                         </Nav>
                     </Collapse>
                 </Navbar>
-                </CardBody>
-                </Row>
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal} className="contact">
                     <ModalHeader toggle={this.toggleModal} className="contact_header">CONTACT ME</ModalHeader>
                     <ModalBody className="contactBody">
