@@ -10,7 +10,6 @@ class Header extends Component {
         this.toggleModal = this.toggleModal.bind(this);
         this.state = {
             isOpen: false,
-            navCollapsed: true,
             showNavbar: false,
             isModalOpen: false
         };
@@ -28,7 +27,7 @@ class Header extends Component {
     }
 
     render() {
-        const { navCollapsed } = this.state
+        
         return (
             <div className="wrapper">
                 <Navbar className="wrapper-right container" color="transparent" expand="md" dark>
