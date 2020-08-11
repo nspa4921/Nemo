@@ -1,72 +1,58 @@
-import React, { Component } from 'react';
-import { Navbar, Nav, NavbarToggler, Collapse, NavItem, Button, Modal, ModalHeader, ModalBody,
-    Form, FormGroup, Input, Label, Col, CardBody, Container, Row, NavLink } from 'reactstrap';
+import React, { Component} from 'react'
+import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Button, Modal, ModalHeader, ModalBody, Form, 
+FormGroup, Label, Input } from 'reactstrap';
 
 class Header extends Component {
     constructor(props) {
-        super(props);
-    
-        this.toggleNav = this.toggleNav.bind(this);
+        super(props); 
+
+        this.toggle = this.toggle.bind(this);
         this.toggleModal = this.toggleModal.bind(this);
         this.state = {
-          isNavOpen: false,
-          isModalOpen: false
+            isOpen: false,
+            navCollapsed: true,
+            showNavbar: false,
+            isModalOpen: false
         };
-      }
-
-      toggleNav() {
+    }
+    toggle() {
         this.setState({
-          isNavOpen: !this.state.isNavOpen
+            isOpen: !this.state.isOpen
         });
-      }
+    }
 
-      toggleModal() {
-          this.setState({
-              isModalOpen: !this.state.isModalOpen
-          });
-      }
-      
+    toggleModal() {
+        this.setState({
+            isModalOpen: !this.state.isModalOpen
+        });
+    }
+
     render() {
-        return(
-            <Container className="wrapper-right">  
-              <Row className="wrapper-header">
-                <Col xs="6">
-                  <CardBody className="occupation">
-                            <div className="header-logo">
-                                <h1 align="left">NEMANJA SPASIC</h1>
-                                <h4 align="left">CV</h4>
-                            </div>
-                  </CardBody>
-                </Col>
-              <Col xs="6">
-                  <CardBody className="occupation" align="center">
-                <Navbar dark expand="md" >
-                    <div className="header">
-                        <NavbarToggler onClick={this.toggleNav} />
-                        <Collapse isOpen={this.state.isNavOpen} navbar >
-                          
-                            <Nav vertical align="left">
+        const { navCollapsed } = this.state
+        return (
+            <div className="wrapper">
+                <Navbar className="wrapper-right container" color="transparent" expand="md" dark>
+                    <NavbarBrand href="#" className="header-logo occupation"><h2>NEMANJA SPASIC</h2> <h3 align="left">CV</h3></NavbarBrand>
+                    <NavbarToggler onClick={this.toggle} />
+                    <Collapse isOpen={this.state.isOpen} navbar>
+                        <Nav className="ml-auto occupation" navbar>
                             <NavItem>
-                                <NavLink className="nav-link" href="/" ><span className="fa fa-print fa-lg"></span> PRINT</NavLink>
+                            <NavLink className="nav-link" href="/"><span className="fa fa-print fa-lg"></span>PRINT</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" href="http://ns-app.com/cv1/nemanja_spasic-cv_en.pdf"><span className="fa fa-download fa-lg"></span> DOWNLOAD </NavLink>
+                            <NavLink className="nav-link" href="http://ns-app.com/cv1/nemanja_spasic-cv_en.pdf"><span className="fa fa-download fa-lg"></span>DOWNLOAD </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink onClick={this.toggleModal} className="link" style={{cursor: 'pointer'}}><span className="fa fa-envelope fa-lg"></span> CONTACT</NavLink>
+                            <NavLink onClick={this.toggleModal} className="nav-link" style={{cursor: 'pointer'}}><span className="fa fa-envelope fa-lg"></span>CONTACT</NavLink>
                             </NavItem>
-                            </Nav> 
-                            
-                        </Collapse>
-                    </div>
+                        </Nav>
+                    </Collapse>
                 </Navbar>
-                </CardBody>
-                </Col>
 
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal} className="contact">
-                <ModalHeader toggle={this.toggleModal} className="contact_header">CONTACT ME</ModalHeader>
+                    <ModalHeader toggle={this.toggleModal} className="contact_header">CONTACT ME</ModalHeader>
                     <ModalBody className="contactBody">
-                    <Form onSubmit={this.handleLogin}>
+                        <Form onSubmit={this.handleLogin}>
                             <FormGroup>
                                 <Label htmlFor="name">Name</Label>
                                 <Input type="text" id="name" name="name"
@@ -85,10 +71,9 @@ class Header extends Component {
                         </Form>
                     </ModalBody>
                 </Modal>
-              </Row>
-            </Container>
-        );
+            </div>
+        )
     }
 }
 
-export default Header;
+export default Header
