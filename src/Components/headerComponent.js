@@ -29,7 +29,7 @@ class Header extends Component {
     render() {
         
         return (
-            <Container className="wrapper-right"> 
+            <div className="wrapper-right container"> 
                 <Navbar className="wrapper" color="transparent" expand="md" dark>
                     <NavbarBrand href="#" className="occupation" align="left"><h2>NEMANJA SPASIC</h2>CV</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
@@ -69,7 +69,7 @@ class Header extends Component {
                         </Form>
                     </ModalBody>
                 </Modal>
-            </Container>
+            </div>
         )
     }
 }
