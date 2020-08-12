@@ -6,7 +6,7 @@ import image from '../assets/photo.png';
     render(){
       return(
         <div>
-        <img className="picture" src={image}  alt="Nemanja Spasic"/>
+        <img className="picture" src={image} alt="Nemanja Spasic"/>
         </div>
      );
     }

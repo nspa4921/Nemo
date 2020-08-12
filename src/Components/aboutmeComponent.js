@@ -17,7 +17,7 @@ import Picture from './pictureComponent';
                 <CardBody>
                   <CardTitle align="left" className="occupation"><h3>ABOUT ME</h3></CardTitle>
                     <CardText align="justify" className="occupation">
-                      Passionate hard-working web developer with over 2 years of front end experience for implementing and maintaining responsive websites and mobile applications. Highly skilled in HTML, CSS, jQuery, JavaScript, React and React-Native. Open-minded and a quick learner, able to pick up on new processes, systems, and technologies quickly.  Strong operational skills, professional trained in business management and administration.
+                      Passionate hard-working web developer with over 10+ years of front end experience for implementing and maintaining responsive websites and mobile applications. Highly skilled in HTML, CSS, jQuery, JavaScript, React and React-Native. Open-minded and a quick learner, able to pick up on new processes, systems, and technologies quickly.  Strong operational skills, professional trained in business management and administration.
                     </CardText>
                 </CardBody>
                 <br></br>

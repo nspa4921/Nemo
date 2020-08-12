@@ -193,7 +193,6 @@
     padding: 10px;
     border: 5px solid rgba(255, 255, 255, .5);
     max-width: 100%;
-    background: rgba(0, 3, 0, 0.3) /* Green background with 30% opacity */
    }
 
    @media only screen and (max-width: 467px) {

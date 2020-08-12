@@ -9,11 +9,11 @@ export default function SimpleAccordion() {
         <Container>  
           <br></br>
           <CardTitle align="left" className="occupation">
-            <h3>SKILLS</h3>
+            <h3>MY SKILLS</h3>
             <br></br>
             </CardTitle>
             <CardTitle align="left" className="occupation">
-                <h5>TECHNICAL SKILLS</h5>
+                <h6>TECHNICAL SKILLS & PROGRAMING TOOLS </h6>
             </CardTitle>
               <Row>
                 <Col xs="12" sm="9"  align="left" className="occupation">
