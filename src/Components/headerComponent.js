@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavbarToggler, MDBCollapse } from "mdbreact";
-import {NavLink, Button, Modal, ModalHeader, ModalBody, Form, FormGroup, Label, Input, CardBody} from "reactstrap";
+import {NavLink, Button, Modal, ModalHeader, ModalBody, Form, FormGroup, Label, Input, CardBody, Container} from "reactstrap";
 
 class Header extends Component {
 
@@ -21,7 +21,8 @@ toggleCollapse = () => {
 
 render() {
   return (
-      <MDBNavbar className="wrapper-header container" color="indigo" dark expand="md">
+    <Container className="wrapper-header">
+      <MDBNavbar color="indigo" dark expand="md" className="wrapper-right">
         <MDBNavbarBrand align="left" className="occupation">
           <CardBody className="header-logo">
             <h2>NEMANJA SPASIC</h2>
@@ -66,6 +67,7 @@ render() {
                     </ModalBody>
                 </Modal>
       </MDBNavbar>
+      </Container>
     );
   }
 }
