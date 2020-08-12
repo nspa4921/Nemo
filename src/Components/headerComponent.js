@@ -1,9 +1,6 @@
 import React, { Component } from "react";
-import {
-MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavbarToggler, MDBCollapse
-} from "mdbreact";
-import {NavLink, Button, Modal, ModalHeader, ModalBody, Form, 
-    FormGroup, Label, Input, CardBody} from "reactstrap";
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavbarToggler, MDBCollapse } from "mdbreact";
+import {NavLink, Button, Modal, ModalHeader, ModalBody, Form, FormGroup, Label, Input, CardBody} from "reactstrap";
 
 class Header extends Component {
 
@@ -26,10 +23,10 @@ render() {
   return (
       <MDBNavbar className="wrapper-header container" color="indigo" dark expand="md">
         <MDBNavbarBrand align="left" className="occupation">
-        <CardBody className="header-logo">
-          <h2>NEMANJA SPASIC</h2>
-          <h3>CV</h3>
-        </CardBody>
+          <CardBody className="header-logo">
+            <h2>NEMANJA SPASIC</h2>
+            <h3>CV</h3>
+          </CardBody>
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
@@ -42,8 +39,6 @@ render() {
             </MDBNavItem>
             <MDBNavItem>
               <NavLink  onClick={this.toggleModal} style={{cursor: 'pointer'}}><span className="fa fa-envelope fa-lg"></span>CONTACT</NavLink>
-            </MDBNavItem>
-            <MDBNavItem>
             </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>

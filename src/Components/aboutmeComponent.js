@@ -9,11 +9,10 @@ import Picture from './pictureComponent';
         <Container className="wrapper-right">  
             <Row>
               <Col xs={12} md={6} className="wrapper">  
-              <CardBody>         
-                <Picture/>  
-              </CardBody>
+                <CardBody>         
+                    <Picture/>  
+                </CardBody>
               </Col>
-
               <Col xs={12} md={6} className="wrapper">  
                 <CardBody>
                   <CardTitle align="left" className="occupation"><h3>ABOUT ME</h3></CardTitle>
@@ -22,9 +21,9 @@ import Picture from './pictureComponent';
                     </CardText>
                 </CardBody>
                 <br></br>
-                <CardBody >
+                <CardBody>
                   <Row>
-                    <Col className="occupation">
+                    <Col className="occupation" >
                       <CardTitle align="left">CONTACT DETAILS</CardTitle>
                       <CardText> 
                         <ul className="no-bullets" align="left" style={{ fontSize: 11}}>
@@ -35,20 +34,22 @@ import Picture from './pictureComponent';
                       </ul>
                       </CardText>
                     </Col>
-                    <Col className="occupation" >
-                      <CardTitle align="center">SOCIAL</CardTitle>               
-                      <CardText>  
-                        <Row>
-                        <Col md="3"></Col>     
-                      <Col md="6">
+                    <Col className="occupation">
+                      <CardTitle align="center">SOCIAL</CardTitle>  
+          
+                    <Row>
+                      <Col>
                         <a className="btn btn-social-icon" href="https://www.linkedin.com/in/nemanja-spasic-68993930/"><i className="fa fa-linkedin fa-5x"></i></a>
                         <a className="btn btn-social-icon" href="https://www.facebook.com/spasic.n/"><i className="fa fa-facebook fa-5x"></i></a>
+                      </Col> 
+                      </Row>
+                      <Row> 
+                      <Col align="center">
                         <a className="btn btn-social-icon" href="http://github.com/nspa4921"><i className="fa fa-github fa-5x"></i>&nbsp;</a>
                         <a className="btn btn-social-icon" href="https://api.whatsapp.com/send?phone=71663966"><i className="fa fa-whatsapp fa-5x"></i></a>
-                        </Col>   
-                        <Col md="3"></Col>   
-                        </Row>          
-                      </CardText>
+                      </Col>  
+                        </Row>   
+        
                     </Col>
                   </Row>
                   </CardBody>

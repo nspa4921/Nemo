@@ -117,23 +117,6 @@
    font-size: 2.3rem;
   }
 
-  .header-logo h3 {
-    letter-spacing: 3px;  
-    color: snow;
-    font-size: 1.3rem;
-   }
-
-  .logo {
-      font-size: 52px;
-      color: snow;
-      text-shadow:
-     -2px -2px 0 #000,  
-      2px -2px 0 #000,
-      -2px 2px 0 #000,
-       2px 2px 0 #000;
-  }
-  
-
  @media screen and (max-width: 990px) {
     .header-logo h2 {
       font-size: 1.5rem; 
