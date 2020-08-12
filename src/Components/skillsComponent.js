@@ -13,7 +13,7 @@ export default function SimpleAccordion() {
             <br></br>
             </CardTitle>
             <CardTitle align="left" className="occupation">
-                <h6>TECHNICAL SKILLS & PROGRAMING TOOLS </h6>
+                <h6>TECHNICAL SKILLS & TOOLS </h6>
             </CardTitle>
               <Row>
                 <Col xs="12" sm="9"  align="left" className="occupation">
