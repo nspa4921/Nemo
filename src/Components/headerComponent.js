@@ -1,6 +1,6 @@
 import React, { Component} from 'react'
 import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Button, Modal, ModalHeader, ModalBody, Form, 
-FormGroup, Label, Input } from 'reactstrap';
+FormGroup, Label, Input, Container, Col, Row, CardBody} from 'reactstrap';
 
 class Header extends Component {
     constructor(props) {
@@ -29,9 +29,17 @@ class Header extends Component {
     render() {
         
         return (
-            <div className="wrapper-right container"> 
-                <Navbar className="wrapper" color="transparent" expand="md" dark>
-                    <NavbarBrand href="#" className="mr-auto occupation" align="left"><h2>NEMANJA SPASIC</h2>CV</NavbarBrand>
+            <Container className="wrapper-right">        
+            <Row className="wrapper">
+                
+              <Col >  
+              <CardBody align="left">                     
+                    <NavbarBrand href="#" className="mr-auto occupation"><h2>NEMANJA SPASIC</h2>CV</NavbarBrand>     
+              </CardBody>
+              </Col>
+              <Col >
+              <Navbar color="transparent" expand="md" dark> 
+              <CardBody>  
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto occupation" navbar>
@@ -46,7 +54,13 @@ class Header extends Component {
                             </NavItem>
                         </Nav>
                     </Collapse>
-                </Navbar>
+                    </CardBody>
+                    </Navbar>
+                </Col>
+                
+                </Row>
+                
+                
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal} className="contact">
                     <ModalHeader toggle={this.toggleModal} className="contact_header">CONTACT ME</ModalHeader>
                     <ModalBody className="contactBody">
@@ -69,7 +83,7 @@ class Header extends Component {
                         </Form>
                     </ModalBody>
                 </Modal>
-            </div>
+            </Container>
         )
     }
 }
