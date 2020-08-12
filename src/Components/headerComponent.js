@@ -1,67 +1,54 @@
-import React, { Component} from 'react'
-import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Button, Modal, ModalHeader, ModalBody, Form, 
-FormGroup, Label, Input, Container, Col, Row, CardBody} from 'reactstrap';
+import React, { Component } from "react";
+import {
+MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavbarToggler, MDBCollapse
+} from "mdbreact";
+import {NavLink, Button, Modal, ModalHeader, ModalBody, Form, 
+    FormGroup, Label, Input, CardBody} from "reactstrap";
 
 class Header extends Component {
-    constructor(props) {
-        super(props); 
 
-        this.toggle = this.toggle.bind(this);
-        this.toggleModal = this.toggleModal.bind(this);
-        this.state = {
-            isOpen: false,
-            showNavbar: false,
-            isModalOpen: false
-        };
-    }
-    toggle() {
-        this.setState({
-            isOpen: !this.state.isOpen
-        });
-    }
+toggleModal = this.toggleModal.bind(this);
+state = {
+  isOpen: false
+};
 
-    toggleModal() {
-        this.setState({
-            isModalOpen: !this.state.isModalOpen
-        });
-    }
+toggleModal() {
+    this.setState({
+        isModalOpen: !this.state.isModalOpen
+    });
+}
 
-    render() {
-        
-        return (
-            <Container className="wrapper-right">        
-            <Row className="wrapper">
-                
-              <Col >  
-              <CardBody align="left">                     
-                    <NavbarBrand href="#" className="mr-auto occupation"><h2>NEMANJA SPASIC</h2>CV</NavbarBrand>     
-              </CardBody>
-              </Col>
-              <Col >
-              <Navbar color="transparent" expand="md" dark> 
-              <CardBody>  
-                    <NavbarToggler onClick={this.toggle} />
-                    <Collapse isOpen={this.state.isOpen} navbar>
-                        <Nav className="ml-auto occupation" navbar>
-                            <NavItem>
-                            <NavLink className="nav-link" href="/"><span className="fa fa-print fa-lg"></span>PRINT</NavLink>
-                            </NavItem>
-                            <NavItem>
-                            <NavLink className="nav-link" href="http://ns-app.com/cv1/nemanja_spasic-cv_en.pdf"><span className="fa fa-download fa-lg"></span>DOWNLOAD </NavLink>
-                            </NavItem>
-                            <NavItem>
-                            <NavLink onClick={this.toggleModal} className="nav-link" style={{cursor: 'pointer'}}><span className="fa fa-envelope fa-lg"></span>CONTACT</NavLink>
-                            </NavItem>
-                        </Nav>
-                    </Collapse>
-                    </CardBody>
-                    </Navbar>
-                </Col>
-                
-                </Row>
-                
-                
-                <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal} className="contact">
+toggleCollapse = () => {
+  this.setState({ isOpen: !this.state.isOpen });
+}
+
+render() {
+  return (
+      <MDBNavbar className="wrapper-header container" color="indigo" dark expand="md">
+        <MDBNavbarBrand align="left" className="occupation">
+        <CardBody className="header-logo">
+          <h2>NEMANJA SPASIC</h2>
+          <h3>CV</h3>
+        </CardBody>
+        </MDBNavbarBrand>
+        <MDBNavbarToggler onClick={this.toggleCollapse} />
+        <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
+          <MDBNavbarNav right>
+            <MDBNavItem >
+              <NavLink href="#" ><span className="fa fa-print fa-lg"></span>PRINT</NavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+              <NavLink href="http://ns-app.com/cv1/nemanja_spasic-cv_en.pdf"><span className="fa fa-download fa-lg"></span>DOWNLOAD </NavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+              <NavLink  onClick={this.toggleModal} style={{cursor: 'pointer'}}><span className="fa fa-envelope fa-lg"></span>CONTACT</NavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+            </MDBNavItem>
+          </MDBNavbarNav>
+        </MDBCollapse>
+
+        <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal} className="contact">
                     <ModalHeader toggle={this.toggleModal} className="contact_header">CONTACT ME</ModalHeader>
                     <ModalBody className="contactBody">
                         <Form onSubmit={this.handleLogin}>
@@ -83,9 +70,9 @@ class Header extends Component {
                         </Form>
                     </ModalBody>
                 </Modal>
-            </Container>
-        )
-    }
+      </MDBNavbar>
+    );
+  }
 }
 
-export default Header
+export default Header;

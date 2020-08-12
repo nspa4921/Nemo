@@ -49,7 +49,7 @@
   .occupation {
     font-size: 12.8px;
     color: white;
-  text-shadow:
+    text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
     -1px 1px 0 #000,
@@ -72,6 +72,7 @@
     background-color: transparent;
     margin:0px auto;
     padding: 20px 0px 20px 0px;
+    color: #fff;
   }
   .jumbotron {
     padding:70px 30px 70px 30px;
@@ -133,7 +134,7 @@
   }
   
 
- @media screen and (max-width: 988px) {
+ @media screen and (max-width: 990px) {
     .header-logo h2 {
       font-size: 1.5rem; 
     }
@@ -142,27 +143,28 @@
     }
   }  
 
- @media screen and (max-width: 436px) {
+ @media screen and (max-width: 514px) {
     .header-logo h2 {
-      font-size: 1.2rem; 
+      font-size: 24px; 
       color: white;
     }
     .header-logo h3 {
-      font-size: 0.9rem;
+      font-size: 20px;
       color: white;
     }
   }  
 
-  @media screen and (min-width: 360px) {
+  @media screen and (max-width: 467px) {
     .header-logo h2 {
-      font-size: 15px;
+      font-size: 18px;
       color: white;
     }
     .header-logo h3 {
-      font-size: 0.9rem;
+      font-size: 14px;
       color: white;
     }
   } 
+  
 
   span {
     margin-right: 10px;
@@ -194,11 +196,11 @@
     color: grey;;
   }
   
-  .my_image{
+  /* .my_image{
     padding-left: 1px;
     margin-left:1px;
     float: left;
-   }
+   } */
 
    .picture {
     height: 380px;
@@ -208,6 +210,7 @@
     padding: 10px;
     border: 5px solid rgba(255, 255, 255, .5);
     max-width: 100%;
+    background: rgba(0, 3, 0, 0.3) /* Green background with 30% opacity */
    }
 
    @media only screen and (max-width: 467px) {
