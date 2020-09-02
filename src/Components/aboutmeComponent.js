@@ -39,14 +39,14 @@ import Picture from './pictureComponent';
           
                     <Row>
                       <Col>
-                        <a className="btn btn-social-icon" href="https://www.linkedin.com/in/nemanja-spasic-68993930/"><i className="fa fa-linkedin fa-5x"></i></a>
-                        <a className="btn btn-social-icon" href="https://www.facebook.com/spasic.n/"><i className="fa fa-facebook fa-5x"></i></a>
+                        <a className="btn btn-social-icon" href="https://www.linkedin.com/in/nemanja-spasic-68993930/" target="_blank"><i className="fa fa-linkedin fa-5x"></i></a>
+                        <a className="btn btn-social-icon" href="https://www.facebook.com/spasic.n/" target="_blank"><i className="fa fa-facebook fa-5x"></i></a>
                       </Col> 
                       </Row>
                       <Row> 
                       <Col align="center">
-                        <a className="btn btn-social-icon" href="http://github.com/nspa4921"><i className="fa fa-github fa-5x"></i>&nbsp;</a>
-                        <a className="btn btn-social-icon" href="https://api.whatsapp.com/send?phone=71663966"><i className="fa fa-whatsapp fa-5x"></i></a>
+                        <a className="btn btn-social-icon" href="http://github.com/nspa4921" target="_blank"><i className="fa fa-github fa-5x"></i>&nbsp;</a>
+                        <a className="btn btn-social-icon" href="https://api.whatsapp.com/send?phone=71663966" target="_blank"><i className="fa fa-whatsapp fa-5x"></i></a>
                       </Col>  
                         </Row>   
         
