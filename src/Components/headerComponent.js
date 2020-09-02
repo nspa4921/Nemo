@@ -25,7 +25,7 @@ render() {
         <MDBNavbarBrand align="left" className="occupation">
           <CardBody className="header-logo">
             <h2>NEMANJA SPASIC</h2>
-            <h3>CV</h3>
+            <p>FRONTEND DEVELOPER</p>
           </CardBody>
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />

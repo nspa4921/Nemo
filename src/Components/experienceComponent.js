@@ -35,7 +35,7 @@ export default function SimpleAccordion() {
           <Typography className={classes.heading}>   
                     <CardText align="left" >      
                     <h7><span className="fa fa-align-justify fa-lg"></span> CONCENTRIX INTERNATIONAL NORDIC AB</h7><br></br>        
-                    <small className="text-muted"> Apr. 2016 – Oct. 2020, Helsingborg, Sweden</small>
+                    <small className="text-muted"> Apr. 2016 – Mar. 2020, Helsingborg, Sweden</small>
                     <p className="occupation">Role: Travel consultant for Hotels.com and Expedia.dk </p>
                     </CardText>
             </Typography>

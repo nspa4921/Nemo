@@ -5,7 +5,7 @@ html {
 html, body, #root {
   padding: 0px !important;;
   margin: 0px !important;;
-  height: 80vh;  background-color: rgba(36, 27, 27, 0.555);
+  height: 80vh;  background-color: transparent;
 }
 
 
