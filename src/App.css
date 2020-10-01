@@ -296,3 +296,9 @@ z-index: 9999;
 .navbar-default .navbar-nav > li > a {
   color: white;
 }
+
+.smallimg {
+height: 80px;
+width: 110px;
+padding: 0px;
+}

@@ -12,7 +12,7 @@ class Education extends Component {
                 <Col xs="3"  md="3">
                   <Media className="my_image">
                     <Media href="#">
-                      <Media  right width="100%" src={cours.image} alt={cours.name} />
+                      <Media className="smallimg" right src={cours.image} alt={cours.name} />
                     </Media>
                   </Media>
                 </Col> 

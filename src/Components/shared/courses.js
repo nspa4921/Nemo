@@ -33,6 +33,5 @@ export const COURSES =
             image: 'assets/images/ASP.NET MVC Kursusbevis.jpg',
             url: 'https://www.itucation.dk/wp-content/uploads/2020/04/Microsoft.NET_MVC.pdf.pagespeed.ce.HGWJa0h4LP.pdf',
             description:'In the course i have learned to develop web applications in ASP.NET MVC 5. After the course i gained solid knowledge of MVC 5 and insight into ASP.NET other  programming forms, such as webforms and webpages.'
-        },
-
+        }
     ];
