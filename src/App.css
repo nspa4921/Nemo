@@ -189,33 +189,28 @@ html, body, #root {
   .unchecked {
     color: grey;;
   }
-  
-  /* .my_image{
-    padding-left: 1px;
-    margin-left:1px;
-    float: left;
-   } */
 
    .picture {
-    height: 380px;
-    width: 380px;
+    height: 400px;
+    width: 378px;
     border-radius: 50%; 
-    margin: 10;
-    padding: 10px;
-    border: 5px solid rgba(255, 255, 255, .5);
+    margin: 8px;
+    padding: 1px;
+    border: 10px solid rgba(112, 112, 112, 0.514);
     max-width: 100%;
+    /* box-shadow: 2px 2px 2px  #080808; */
    }
 
-   @media only screen and (max-width: 467px) {
+   @media only screen and (max-width: 1001px) {
     .picture {
-    height: 280px;
-    width: 280px;
-    border-radius: 50%; 
-    margin: 0;
-    padding: 5px;
-    border: 5px solid rgba(255, 255, 255, .5);
-    max-width: 100%;
-     }
+      height: 400px;
+      width: 378px;
+      border-radius: 50%; 
+      margin: 8px;
+      padding: 1px;
+      border: 12px solid rgba(112, 112, 112, 0.514);
+      max-width: 100%;
+    }
 }
   
    .social{

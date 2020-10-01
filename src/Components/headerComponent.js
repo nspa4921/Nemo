@@ -21,7 +21,7 @@ toggleCollapse = () => {
 
 render() {
   return (
-      <MDBNavbar className="wrapper-header container" color="indigo" dark expand="md">
+      <MDBNavbar className="wrapper-header container" dark expand="md">
         <MDBNavbarBrand align="left" className="occupation">
           <CardBody className="header-logo">
             <h2>NEMANJA SPASIC</h2>

@@ -17,13 +17,12 @@ export default function SimpleAccordion() {
             </CardTitle>
               <Row>
                 <Col xs="12" sm="9"  align="left" className="occupation">
-                <CardText style={{ fontSize: 12.3}}>▷ HTML, XHTML, CSS, PHP, MySQL</CardText> 
-                </Col>
-                
+                <CardText style={{ fontSize: 12.3}}>▷ Good Understanding of HTML5, CSS3, Bootstrap & Grid System, JavaScript og JQuery</CardText> 
+                </Col>     
               </Row>
               <Row>
                 <Col xs="12" sm="10" align="left" className="occupation">
-                <CardText style={{ fontSize: 12.3 }}>▷ JS, React and React-Native, Redux, NodeJs, Git, Github </CardText> 
+                <CardText style={{ fontSize: 12.3 }}>▷ React and React-Native, Redux, Node.js, NodeJs, Git, Github </CardText> 
                 </Col>
                 
               </Row>
@@ -35,13 +34,20 @@ export default function SimpleAccordion() {
               </Row>
               <Row>
                 <Col xs="12" sm="9"  align="left" className="occupation">
-                <CardText style={{ fontSize: 12.3}}>▷ Good knowledge of Bootstrap 4 & Grid System</CardText> 
+                <CardText style={{ fontSize: 12.3}}>▷ Familiar with OOP - C# and ASP.NET MVC 5 + SQL, API and WCF </CardText> 
                 </Col>
                 
               </Row>
               <Row>
                 <Col xs="12" sm="9"  md="12" align="left" className="occupation">
-                <CardText style={{ fontSize: 12.3 }}>▷ Visual Studio Code, Dreamviewer </CardText> 
+                <CardText style={{ fontSize: 12.3 }}>▷ Design and implementation of MVC web applications using controller, model and view
+ </CardText> 
+                </Col>
+                
+              </Row>
+              <Row>
+                <Col xs="12" sm="9"  align="left" className="occupation">
+                <CardText style={{ fontSize: 12.3 }}>▷ Responsive pages, Ajax, JavaScript og JQuery, API and WCF </CardText> 
                 </Col>
                 
               </Row>
