@@ -13,7 +13,7 @@ body,
 
 .App {
   text-align: center;
-  background-image: url("./images/bg.jpg");
+  background: url("./images/bg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -25,6 +25,13 @@ body,
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
+}
+
+@supports (-webkit-touch-callout: none) {
+  .App {
+    background: url("./images/bg.jpg") center top no-repeat scroll;
+    background-size: auto 100vh;
+  }
 }
 
 @media screen and (max-device-width: 640px) {
