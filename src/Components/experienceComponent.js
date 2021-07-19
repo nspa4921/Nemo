@@ -29,7 +29,7 @@ export default function SimpleAccordion() {
                 <CardTitle align="left" className="occupation"><h3>WORKING EXPERIENCE</h3></CardTitle>
                     <br></br>
           <Accordion>
-        <AccordionSummary expandIcon={<ExpandMoreIcon />}
+        <AccordionSummary expandIcon={<ExpandMoreIcon className="occupation" />}
           aria-controls="panel1a-content"
           id="panel1a-header">
           <Typography className={classes.heading}>   
@@ -56,7 +56,7 @@ investing. My responsibility is to redesign and launch mobile friendly website i
       </Accordion>
 
       <Accordion>
-        <AccordionSummary expandIcon={<ExpandMoreIcon />}
+        <AccordionSummary expandIcon={<ExpandMoreIcon className="occupation"/>}
           aria-controls="panel1a-content"
           id="panel1a-header" >
           <Typography className={classes.heading}>   
@@ -89,7 +89,7 @@ ensure that all data is correctly advertised</li>
                 
       <Accordion>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon className="occupation" />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -123,7 +123,7 @@ ensure that all data is correctly advertised</li>
                
       <Accordion>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon className="occupation" />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -159,7 +159,7 @@ ensure that all data is correctly advertised</li>
 
       <Accordion>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon className="occupation"/>}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >

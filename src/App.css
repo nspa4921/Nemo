@@ -113,7 +113,10 @@ address {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 0px px 15px;
+}
+
+.header-logo {
+  padding-top: 5px;
 }
 
 @media only screen and (max-width: 767px) {
