@@ -2,7 +2,6 @@ import React from 'react';
 import { CardTitle, CardText, CardBody } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
 import Picture from './pictureComponent';
-import LightSpeed from 'react-reveal/LightSpeed';
 import Swing from 'react-reveal/Swing';
 
 
