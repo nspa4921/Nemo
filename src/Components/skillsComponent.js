@@ -63,11 +63,6 @@ export default function SimpleAccordion() {
                 </Col>
                 
               </Row>
-              <Row>
-                <Col xs="12" sm="9"  align="left" className="occupation">
-                <CardText style={{ fontSize: 12.3 }}>▷ Amadeus GDS booking systems  </CardText> 
-                </Col>
-              </Row>
 
                 <hr/>
                 <br></br>

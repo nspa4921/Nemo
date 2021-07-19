@@ -5,8 +5,8 @@ import image from '../assets/nemo2.jpg';
   class Picture extends Component {
     render(){
       return(
-        <div>
-        <img className="picture" src={image} alt="Nemanja Spasic"/>
+        <div className="picture-body">
+          <img className="picture" src={image} alt="Nemanja Spasic"/>
         </div>
      );
     }

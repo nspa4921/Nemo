@@ -7,6 +7,7 @@ import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import { PlayCircleFilledWhite } from '@material-ui/icons';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -34,36 +35,55 @@ export default function SimpleAccordion() {
           id="panel1a-header">
           <Typography className={classes.heading}>   
                     <CardText align="left" >      
-                    <h7><span className="fa fa-align-justify fa-lg"></span> CONCENTRIX INTERNATIONAL NORDIC AB</h7><br></br>        
-                    <small className="text-muted"> Apr. 2016 – Mar. 2020, Helsingborg, Sweden</small>
-                    <p className="occupation">Role: Travel consultant for Hotels.com and Expedia.dk </p>
+                    <h7><span className="fa fa-align-justify fa-lg"></span> FRONTEND DEVELOPER</h7><br></br>        
+                    <small className="text-muted"> Maj. 2021 – , Copenhagen, Denmark</small>
+                    <p className="occupation">MakeImpact ApS</p>
                     </CardText>
             </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          <p className="occupation" align="justify" >Conentrix offers customer support in the Nordic market, for both private and corporate customers. 
-                    My position in the company was a travel consultant and I work in a hotel / flight support team where my primary task was to handle incoming calls regarding hotel / flight bookings, as well as various activity bookings and transport to / from airport / hotel. I also helped customers to plan, choose and arrange their holiday, in case with rebooking and changing flights, hotels, transfers etc, and also selling travel insurance. 
-                    </p>
+          <CardText align="left" className="occupation">
+          <p  align="justify">Make!mpact is a Nordic Impact Fintech startup with a focus on sustainability and impact 
+investing. My responsibility is to redesign and launch mobile friendly website in React. </p>
+                  <p  align="justify"> Technologies: </p> 
+                    <ul>
+                        <li>React, Typescript, Redux, Saga</li>
+                        <li>JSON, jQuery, Git, Firebase, Jira, Zeplin.. </li>
+                    </ul>
+                    </CardText>
           </Typography>
         </AccordionDetails>
       </Accordion>
+
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header" >
           <Typography className={classes.heading}>   
                     <CardText align="left" >      
-                    <h7><span className="fa fa-align-justify fa-lg"></span> MUNKEBJERG HOTEL</h7>  
+                    <h7><span className="fa fa-align-justify fa-lg"></span> LODGING CONTENT ASSOSIETE FOR HOTELS.COM AND EXPEDIA.DK 
+</h7>  
                     <br></br>
-                    <small className="text-muted">Maj 2014 – March 2016, Vejle, Danmark </small>
-                    <p className="occupation">Role: Facility assistant </p>
+                    <small className="text-muted">Apr. 2016 – Mar. 2020, Helsingborg, Sweden
+</small>
+                    <p className="occupation">Concentrix International Nordric AB</p>
                     </CardText>
                     </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          <p className="occupation" align="justify">In Munkebjerg hotel I worked for while I was studying the Danish language. My tasks were to help facilitating the hotel events. </p>
+          <CardText align="left" className="occupation">
+          <p  align="justify">My responsibilities: </p> 
+                    <ul>
+                        <li>Onboarding newly acquired hotels into Expedia’s database,</li>
+                        <li>Uploading and checking accuracy of content, adding property details, photos, star 
+ratings, and hotel data such as name, location and on-site services,</li>
+                        <li>Providing customer service support to Expedia’s hotel partners (business to 
+business relationship), gathering information from them by using a checklist to 
+ensure that all data is correctly advertised</li> 
+                    </ul>
+                    </CardText>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -76,10 +96,10 @@ export default function SimpleAccordion() {
         >
           <Typography className={classes.heading}>   
                     <CardText align="left" >      
-                    <h7><span className="fa fa-align-justify fa-lg"></span> TOURIS AGENCY "MOLNAR GABOR"</h7>
+                    <h7><span className="fa fa-align-justify fa-lg"></span> WEB DEVELOPER / SALES AND MARKETING MANAGER / TRAVEL GUIDE</h7>
                     <br></br>
                     <small className="text-muted">Maj 2010 – Sept. 2012, Island Krk, Croatia  </small>
-                    <p className="occupation">Role: Front End web developer / Sales and marketing manager / Travel guide </p>
+                    <p className="occupation"> Tourist agency "MOLNAR GABOR"</p>
                     </CardText>
                     </Typography>
         </AccordionSummary>
@@ -110,10 +130,10 @@ export default function SimpleAccordion() {
         >
           <Typography className={classes.heading}>   
                     <CardText align="left" >      
-                    <h7><span className="fa fa-align-justify fa-lg"></span> HOSTEL "LAZIN HOSTEL” </h7>
+                    <h7><span className="fa fa-align-justify fa-lg"></span> WEB DESIGNER / SALES AND MARKETING MANAGER / TRAVEL GUIDE / SERVICE ASSISTANT  </h7>
                     <br></br>
                     <small className="text-muted">Sept. 2008 – Oct. 2009, Novi Sad, Serbia </small>
-                    <p className="occupation">Role: Web designer / Sales and marketing manager / Travel guide / Service assistant </p>
+                    <p className="occupation">Hostel "LAZIN HOSTEL” </p>
                     </CardText>
                     </Typography>
         </AccordionSummary>
@@ -146,10 +166,10 @@ export default function SimpleAccordion() {
         >
           <Typography className={classes.heading}>   
                     <CardText align="left" >      
-                    <h7><span className="fa fa-align-justify fa-lg"></span> PANACOMP WONDERLAND TRAVEL SERBIA</h7>
+                    <h7><span className="fa fa-align-justify fa-lg"></span>WEB DESIGNER, ADVISOR / TOURS & HOLIDAY ORGANIZER</h7>
                     <br></br>
-                    <small className="text-muted">Oct. 2007 – Oct. 2009, Novi Sad </small>
-                    <p className="occupation">Role: Web designer, Advisor and Organizer of tourist packages </p>
+                    <small className="text-muted">Oct. 2007 – Oct. 2009, Novi Sad, Serbia </small>
+                    <p className="occupation">PANACOMP WONDERLAND TRAVEL </p>
                     </CardText>
                     </Typography>
         </AccordionSummary>
@@ -160,11 +180,10 @@ export default function SimpleAccordion() {
                      
                     <p>Tasks & responsibilities: </p>
                     <ul>
-                        <li>Developing, maintenance & administration of www.panacomp.net, </li>
-                        <li>Implementing & customizing a WordPress plugins,</li>
-                        <li>Uploading text, photos and videos by using HTML, XHTML, CSS, PHP, MySQL,</li>
-                        <li>Developing of tourism programs,</li>
-                        <li>Creating a promotional flyers in Photoshop </li>
+                        <li>Website design and maintenance of www.panacomp.net </li>
+                        <li>Uploading texts, photos and videos, using HTML, XHTML, CSS, PHP, MySQL</li>
+                        <li>Developing of tourism programs</li>
+                        <li>Creating a Promotional Flyers in Photoshop</li>
                     </ul>
                     </CardText>
                 </CardBody>

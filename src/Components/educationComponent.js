@@ -9,14 +9,14 @@ class Education extends Component {
       const courses = this.props.courses.map((cours) => {
           return (     
               <Row>
-                <Col xs="3"  md="3">
+                <Col xs="4"  md="4">
                   <Media className="my_image">
                     <Media href="#">
                       <Media className="smallimg" right src={cours.image} alt={cours.name} />
                     </Media>
                   </Media>
                 </Col> 
-                <Col xs="9"  md="9" align="justify">
+                <Col xs="8"  md="8" align="justify">
                         <h6 align="left" className="occupation">{cours.name}</h6>
                         <small className="text-muted">{cours.description}</small> 
                         <br></br>

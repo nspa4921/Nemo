@@ -2,6 +2,10 @@ import React from 'react';
 import { CardTitle, CardText, CardBody } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
 import Picture from './pictureComponent';
+import ScrollAnimation from 'react-animate-on-scroll';
+
+
+
 
     const Aboutme = (props) => {
       return (
@@ -15,9 +19,14 @@ import Picture from './pictureComponent';
               </Col>
               <Col xs={12} md={6} className="wrapper">  
                 <CardBody>
+                <ScrollAnimation animateIn='wobble'
+  initiallyVisible={true}>
                   <CardTitle align="left" className="occupation"><h3>ABOUT ME</h3></CardTitle>
+                  </ScrollAnimation>
                     <CardText align="justify" className="occupation">
-                      Passionate hard-working web developer with over 10+ years of front end experience for implementing and maintaining responsive websites and mobile applications. Highly skilled in HTML, CSS, jQuery, JavaScript, React and React-Native. Open-minded and a quick learner, able to pick up on new processes, systems, and technologies quickly.  Strong operational skills, professional trained in business management and administration.
+                    I’m a passionate Frontend developer, with more than 10 years experience in designing and implementing user-facing features for websites and applications using React.js. Highly skilled in React, Typerscript, React redux, React-Native, Express, MongoDB..
+                    Open-minded and a quick learner, able to pick up on new processes, systems, and technologies quickly. Experienced with Microsoft ASP.NET MVC Architecture.
+                    Strong operational skills, professional trained in business management and administration.
                     </CardText>
                 </CardBody>
                 <br></br>
@@ -27,10 +36,10 @@ import Picture from './pictureComponent';
                       <CardTitle align="left">CONTACT DETAILS</CardTitle>
                       <CardText> 
                         <ul className="no-bullets" align="left" style={{ fontSize: 11}}>
-                          <li> Address: Evanstonevej 4</li>
-                          <li> 2900 Hellerup </li>
+                          <li> Address: Kong Eriks Have 22</li>
+                          <li> 2765 Smørum </li>
                           <li> Phone: +45 71663966</li>
-                          <li>E-mail: <a href="mailto:nemo.spaske@live.com">nemo.spaske(at)live.com</a></li>
+                          <li>E-mail: <a href="mailto:nemo.spaske@live.com">nemo.spaske@live.com</a></li>
                       </ul>
                       </CardText>
                     </Col>
@@ -39,14 +48,14 @@ import Picture from './pictureComponent';
           
                     <Row>
                       <Col>
-                        <a  target="_blank" rel="noopener noreferrer" className="btn btn-social-icon" href="https://www.linkedin.com/in/nemanja-spasic-68993930/"><i className="fa fa-linkedin fa-5x"></i></a>
-                        <a target="_blank" rel="noopener noreferrer" className="btn btn-social-icon" href="https://www.facebook.com/spasic.n/" ><i className="fa fa-facebook fa-5x"></i></a>
+                        <a target="_blank" rel="noopener noreferrer" className="btn btn-social-icon" href="https://www.linkedin.com/in/nemanja-spasic-68993930/"><i className="fa fa-linkedin fa-5x occupation"></i></a>
+                        <a target="_blank" rel="noopener noreferrer" className="btn btn-social-icon" href="https://www.facebook.com/spasic.n/" ><i className="fa fa-facebook fa-5x occupation"></i></a>
                       </Col> 
                       </Row>
                       <Row> 
                       <Col align="center">
-                        <a target="_blank" rel="noopener noreferrer" className="btn btn-social-icon" href="http://github.com/nspa4921" ><i className="fa fa-github fa-5x"></i>&nbsp;</a>
-                        <a target="_blank" rel="noopener noreferrer" className="btn btn-social-icon" href="https://api.whatsapp.com/send?phone=71663966" ><i className="fa fa-whatsapp fa-5x"></i></a>
+                        <a target="_blank" rel="noopener noreferrer" className="btn btn-social-icon" href="http://github.com/nspa4921" ><i className="fa fa-github fa-5x occupation"></i>&nbsp;</a>
+                        <a target="_blank" rel="noopener noreferrer" className="btn btn-social-icon" href="https://api.whatsapp.com/send?phone=71663966" ><i className="fa fa-whatsapp fa-5x occupation"></i></a>
                       </Col>  
                         </Row>   
         

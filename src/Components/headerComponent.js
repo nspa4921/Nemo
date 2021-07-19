@@ -23,10 +23,10 @@ render() {
   return (
       <MDBNavbar className="wrapper-header container" dark expand="md">
         <MDBNavbarBrand align="left" className="occupation">
-          <CardBody className="header-logo">
+          <div className="header-logo">
             <h2>NEMANJA SPASIC</h2>
             <p>FRONTEND DEVELOPER</p>
-          </CardBody>
+          </div>
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
