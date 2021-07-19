@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavbarToggler, MDBCollapse } from "mdbreact";
-import {NavLink, Button, Modal, ModalHeader, ModalBody, Form, FormGroup, Label, Input, CardBody} from "reactstrap";
+import {NavLink, Button, Modal, ModalHeader, ModalBody, Form, FormGroup, Label, Input} from "reactstrap";
 
 class Header extends Component {
 
