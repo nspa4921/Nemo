@@ -23,6 +23,9 @@ body,
   color: black;
   font: 12px Verdana, Arial, Helvetica, sans-serif;
   line-height: 20px;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 /* ========= Container styles ========== */
