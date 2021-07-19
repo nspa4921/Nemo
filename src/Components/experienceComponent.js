@@ -109,7 +109,8 @@ ensure that all data is correctly advertised</li>
           <Typography>
             <CardBody>
                     <CardText align="left" className="occupation">
-          <p  align="justify">In this company, my primary task was focused on the marketing of agency, website development and promotion on social networks. I worked also as a tourist guide and translator. In short, my responsibilities was:  </p> 
+          <p  align="justify">In this company, my primary task was focused on the marketing of agency, website development and promotion on social networks. I worked also as a tourist guide and translator. </p>
+          <p>In short, my responsibilities was:  </p>
                     <ul>
                         <li>Developing and maintaining www.krktourist.com website using HTML, XHTML, CSS, PHP, MySQL </li>
                         <li>Using open CMS systems, such as WordPress, Joomla etc.. </li>
