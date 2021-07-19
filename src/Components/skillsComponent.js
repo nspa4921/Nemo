@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, CardTitle, CardText } from 'reactstrap';
 import Icon from '@material-ui/core/Icon';
+import Shake from 'react-reveal/Shake';
 
 
 export default function SimpleAccordion() {
@@ -9,7 +10,9 @@ export default function SimpleAccordion() {
         <Container>  
           <br></br>
           <CardTitle align="left" className="occupation">
+          <Shake>
             <h3>MY SKILLS</h3>
+          </Shake>
             <br></br>
             </CardTitle>
             <CardTitle align="left" className="occupation">

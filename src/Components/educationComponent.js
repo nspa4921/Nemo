@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Row, Col, Media, Container, CardTitle, CardBody } from 'reactstrap'; 
 import { MDBListGroup, MDBListGroupItem } from "mdbreact";
 import { SRLWrapper } from "simple-react-lightbox";
+import RubberBand from 'react-reveal/RubberBand';
+import Spin from 'react-reveal/Spin';
 
 class Education extends Component {
 
@@ -31,7 +33,9 @@ class Education extends Component {
             <Row>
               <Col xs={12} md={6} className="wrapper" >     
               <CardBody>                 
-                <CardTitle align="left" className="occupation"><h3>EDUCATION</h3></CardTitle>      
+                <RubberBand>
+                <CardTitle align="left" className="occupation"><h3>EDUCATION</h3></CardTitle>
+                </RubberBand>      
                 <MDBListGroup >
                   <MDBListGroupItem>
                       <div className="d-flex w-100 justify-content-between">
@@ -52,7 +56,9 @@ class Education extends Component {
               </Col>
               <Col xs={12} md={6} className="wrapper">   
                 <CardBody>      
+                  <Spin>
                   <CardTitle align="left" className="occupation"><h3>COURSES</h3></CardTitle> 
+                  </Spin>
                   <br></br>
                   <SRLWrapper>  
                   {courses}

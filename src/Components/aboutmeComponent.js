@@ -2,8 +2,8 @@ import React from 'react';
 import { CardTitle, CardText, CardBody } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
 import Picture from './pictureComponent';
-import ScrollAnimation from 'react-animate-on-scroll';
-
+import LightSpeed from 'react-reveal/LightSpeed';
+import Swing from 'react-reveal/Swing';
 
 
 
@@ -19,10 +19,9 @@ import ScrollAnimation from 'react-animate-on-scroll';
               </Col>
               <Col xs={12} md={6} className="wrapper">  
                 <CardBody>
-                <ScrollAnimation animateIn='wobble'
-  initiallyVisible={true}>
+                <Swing>
                   <CardTitle align="left" className="occupation"><h3>ABOUT ME</h3></CardTitle>
-                  </ScrollAnimation>
+                  </Swing>
                     <CardText align="justify" className="occupation">
                     I’m a passionate Frontend developer, with more than 10 years experience in designing and implementing user-facing features for websites and mobile applications using React.js. Highly skilled in React, Typerscript, React redux, React-Native, Express, MongoDB..
                     Open-minded and a quick learner, able to pick up on new processes, systems, and technologies quickly. Experienced with Microsoft ASP.NET MVC Architecture.
