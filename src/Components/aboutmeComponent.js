@@ -24,7 +24,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
                   <CardTitle align="left" className="occupation"><h3>ABOUT ME</h3></CardTitle>
                   </ScrollAnimation>
                     <CardText align="justify" className="occupation">
-                    I’m a passionate Frontend developer, with more than 10 years experience in designing and implementing user-facing features for websites and applications using React.js. Highly skilled in React, Typerscript, React redux, React-Native, Express, MongoDB..
+                    I’m a passionate Frontend developer, with more than 10 years experience in designing and implementing user-facing features for websites and mobile applications using React.js. Highly skilled in React, Typerscript, React redux, React-Native, Express, MongoDB..
                     Open-minded and a quick learner, able to pick up on new processes, systems, and technologies quickly. Experienced with Microsoft ASP.NET MVC Architecture.
                     Strong operational skills, professional trained in business management and administration.
                     </CardText>
@@ -32,7 +32,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
                 <br></br>
                 <CardBody>
                   <Row>
-                    <Col className="occupation" >
+                    <Col className="occupation" xs={7} md={7}>
                       <CardTitle align="left">CONTACT DETAILS</CardTitle>
                       <CardText> 
                         <ul className="no-bullets" align="left" style={{ fontSize: 11}}>
@@ -43,7 +43,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
                       </ul>
                       </CardText>
                     </Col>
-                    <Col className="occupation">
+                    <Col className="occupation" xs={5} md={5}>
                       <CardTitle align="center">SOCIAL</CardTitle>  
           
                     <Row>

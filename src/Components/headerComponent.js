@@ -35,7 +35,7 @@ render() {
               <NavLink href="#" ><span className="fa fa-print fa-lg"></span>PRINT</NavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <NavLink href="http://ns-app.com/cv1/nemanja_spasic-cv_en.pdf" target="_blank"><span className="fa fa-download fa-lg"></span>DOWNLOAD </NavLink>
+              <NavLink href="http://ns-app.com/cv1/Nemanja_Spasic_CV_eng.pdf" target="_blank"><span className="fa fa-download fa-lg"></span>DOWNLOAD </NavLink>
             </MDBNavItem>
             <MDBNavItem>
               <NavLink  onClick={this.toggleModal} style={{cursor: 'pointer'}}><span className="fa fa-envelope fa-lg"></span>CONTACT</NavLink>
