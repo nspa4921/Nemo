@@ -7,7 +7,7 @@ import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import Wobble from 'react-reveal/Wobble';
+import RubberBand from 'react-reveal/RubberBand';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -27,9 +27,9 @@ export default function SimpleAccordion() {
             <Row >
                 <Col xs={12} md={6} className="wrapper"> 
                 <CardBody>  
-                  <Wobble>
+                  <RubberBand>
                 <CardTitle align="left" className="occupation"><h3>WORKING EXPERIENCE</h3></CardTitle>
-                </Wobble>
+                </RubberBand>
                     <br></br>
           <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon className="occupation" />}

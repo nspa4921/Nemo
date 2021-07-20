@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, CardTitle, CardText } from 'reactstrap';
 import Icon from '@material-ui/core/Icon';
-import Shake from 'react-reveal/Shake';
+import RubberBand from 'react-reveal/RubberBand';
 
 
 export default function SimpleAccordion() {
@@ -10,9 +10,9 @@ export default function SimpleAccordion() {
         <Container>  
           <br></br>
           <CardTitle align="left" className="occupation">
-          <Shake>
+          <RubberBand>
             <h3>MY SKILLS</h3>
-          </Shake>
+          </RubberBand>
             <br></br>
             </CardTitle>
             <CardTitle align="left" className="occupation">
