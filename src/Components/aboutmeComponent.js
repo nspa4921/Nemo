@@ -24,7 +24,8 @@ import Swing from 'react-reveal/Swing';
                     </CardTitle>
                   </Swing>
                     <CardText align="justify" className="occupation">
-                    I’m a passionate Frontend developer, with more than 10 years experience in designing and implementing user-facing features for websites and mobile applications using React.js. Highly skilled in React, Typerscript, React redux, React-Native, Express, MongoDB..
+                    I’m a passionate Frontend developer, with more than 10 years experience in designing and implementing user-facing features for websites and mobile applications using React.js. 
+                    Highly skilled in React, Typerscript, React redux, React-Native, Express, MongoDB..
                     Open-minded and a quick learner, able to pick up on new processes, systems, and technologies quickly. Experienced with Microsoft ASP.NET MVC Architecture.
                     Strong operational skills, professional trained in business management and administration.
                     </CardText>

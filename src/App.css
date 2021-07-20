@@ -91,7 +91,7 @@ body,
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.1px;
   line-height: 1.3;
 }
 
@@ -244,8 +244,8 @@ span {
 
 @media only screen and (max-width: 1001px) {
   .picture {
-    height: 330px;
-    width: 318px;
+    height: 315px;
+    width: 300px;
     border-radius: 50%;
     margin: 8px;
     padding: 1px;
@@ -256,20 +256,8 @@ span {
 
 @media only screen and (max-width: 767px) {
   .picture {
-    height: 80%;
-    width: 75%;
-    border-radius: 50%;
-    margin: 8px;
-    padding: 1px;
-    border: 12px solid rgba(112, 112, 112, 0.514);
-    max-width: 100%;
-  }
-}
-
-@media only screen and (min-width: 1001px) {
-  .picture {
-    height: 100%;
-    width: 100%;
+    height: 315px;
+    width: 300px;
     border-radius: 50%;
     margin: 8px;
     padding: 1px;
