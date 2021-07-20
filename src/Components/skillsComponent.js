@@ -19,50 +19,44 @@ export default function SimpleAccordion() {
                 <h6>TECHNICAL SKILLS & TOOLS </h6>
             </CardTitle>
               <Row>
-                <Col xs="12" sm="9"  align="left" className="occupation">
-                <CardText style={{ fontSize: 12.3}}>▷ Good Understanding of HTML5, CSS3, Bootstrap & Grid System, JavaScript og JQuery</CardText> 
+                <Col xs="12" sm="12"  align="left" className="occupation">
+                <CardText style={{ fontSize: 13, lineHeight: 2}}>🗸 Highly proficient in JavaScript, modern JavaScript, HTML, CSS</CardText> 
                 </Col>     
               </Row>
               <Row>
-                <Col xs="12" sm="10" align="left" className="occupation">
-                <CardText style={{ fontSize: 12.3 }}>▷ React and React-Native, Redux, Node.js, NodeJs, Git, Github </CardText> 
+                <Col xs="12" sm="12" align="left" className="occupation">
+                <CardText style={{ fontSize: 13, lineHeight: 2 }}>🗸 3+ years professional experience in React.js </CardText> 
                 </Col>
                 
               </Row>
               <Row>
-                <Col xs="12" sm="9"  align="left" className="occupation">
-                <CardText style={{ fontSize: 12.3 }}>▷ CMS systems: Wordpress, Joomla </CardText> 
+                <Col xs="12" sm="12"  align="left" className="occupation">
+                <CardText style={{ fontSize: 13, lineHeight: 2 }}>🗸 Highly proficient in rendering data to the DOM using React.js </CardText> 
                 </Col>
                 
               </Row>
               <Row>
-                <Col xs="12" sm="9"  align="left" className="occupation">
-                <CardText style={{ fontSize: 12.3}}>▷ Familiar with OOP - C# and ASP.NET MVC 5 + SQL, API and WCF </CardText> 
+                <Col xs="12" sm="12"  align="left" className="occupation">
+                <CardText style={{ fontSize: 13, lineHeight: 2}}>🗸 Highly proficient in Redux architecture & React Router for state managing and routing </CardText> 
                 </Col>
                 
               </Row>
               <Row>
-                <Col xs="12" sm="9"  md="12" align="left" className="occupation">
-                <CardText style={{ fontSize: 12.3 }}>▷ Design and implementation of MVC web applications using controller, model and view
+                <Col xs="12" sm="12" align="left" className="occupation">
+                <CardText style={{ fontSize: 13, lineHeight: 2 }}>🗸 Proficient in using Git, Express, MongoDB, NodeJs, Webpack, ApI
  </CardText> 
                 </Col>
                 
               </Row>
               <Row>
-                <Col xs="12" sm="9"  align="left" className="occupation">
-                <CardText style={{ fontSize: 12.3 }}>▷ Responsive pages, Ajax, JavaScript og JQuery, API and WCF </CardText> 
+                <Col xs="12" sm="12"  align="left" className="occupation">
+                <CardText style={{ fontSize: 13, lineHeight: 2 }}>🗸 Experience working with CMS systems: Wordpress and Joomla   </CardText> 
                 </Col>
                 
               </Row>
               <Row>
-                <Col xs="12" sm="9"  align="left" className="occupation">
-                <CardText style={{ fontSize: 12.3 }}>▷ MsOffice packages (Word, Excel, Powerpoint, Outlook) </CardText> 
-                </Col>
-                
-              </Row>
-              <Row>
-                <Col xs="12" sm="9"  align="left" className="occupation">
-                <CardText style={{ fontSize: 12.3 }}>▷ Sharepoint  </CardText> 
+                <Col xs="12" sm="12"  align="left" className="occupation">
+                <CardText style={{ fontSize: 13, lineHeight: 2 }}>🗸 Familiar with OOP, C# and ASP.NET MVC 5 + Entity framework </CardText> 
                 </Col>
                 
               </Row>

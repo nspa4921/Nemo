@@ -19,7 +19,9 @@ import Swing from 'react-reveal/Swing';
               <Col xs={12} md={6} className="wrapper">  
                 <CardBody>
                 <Swing>
-                  <CardTitle align="left" className="occupation"><h3>ABOUT ME</h3></CardTitle>
+                  <CardTitle align="left" className="occupation">
+                    <h3>ABOUT ME</h3>
+                    </CardTitle>
                   </Swing>
                     <CardText align="justify" className="occupation">
                     I’m a passionate Frontend developer, with more than 10 years experience in designing and implementing user-facing features for websites and mobile applications using React.js. Highly skilled in React, Typerscript, React redux, React-Native, Express, MongoDB..
