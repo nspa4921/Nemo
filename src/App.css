@@ -232,7 +232,7 @@ span {
 }
 
 .picture {
-  height: 400px;
+  height: 390px;
   width: 378px;
   border-radius: 50%;
   margin: 8px;
@@ -245,7 +245,7 @@ span {
 @media only screen and (max-width: 1001px) {
   .picture {
     height: 330px;
-    width: 350px;
+    width: 318px;
     border-radius: 50%;
     margin: 8px;
     padding: 1px;
@@ -256,8 +256,20 @@ span {
 
 @media only screen and (max-width: 767px) {
   .picture {
-    height: 75%;
-    width: 80%;
+    height: 80%;
+    width: 75%;
+    border-radius: 50%;
+    margin: 8px;
+    padding: 1px;
+    border: 12px solid rgba(112, 112, 112, 0.514);
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1001px) {
+  .picture {
+    height: 100%;
+    width: 100%;
     border-radius: 50%;
     margin: 8px;
     padding: 1px;
