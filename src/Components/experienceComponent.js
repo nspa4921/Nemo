@@ -64,7 +64,7 @@ investing. My responsibility is to redesign and launch mobile friendly website i
           id="panel1a-header" >
           <Typography className={classes.heading}>   
                     <CardText align="left" >      
-                    <h7><span className="fa fa-align-justify fa-lg"></span> LODGING CONTENT ASSOSIETE FOR HOTELS.COM AND EXPEDIA.DK 
+                    <h7><span className="fa fa-align-justify fa-lg"></span> LODGING CONTENT ASSOCIETE FOR HOTELS.COM AND EXPEDIA.DK 
 </h7>  
                     <br></br>
                     <small className="text-muted">Apr. 2016 – Mar. 2020, Helsingborg, Sweden
