@@ -59,6 +59,35 @@ investing. My responsibility is to redesign and launch mobile friendly website i
       </Accordion>
 
       <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon className="occupation" />}
+          aria-controls="panel1a-content"
+          id="panel1a-header">
+          <Typography className={classes.heading}>   
+                    <CardText align="left" >      
+                    <h7><span className="fa fa-align-justify fa-lg"></span> FULL-STACK DEVELOPER</h7><br></br>        
+                    <small className="text-muted"> Mar. 2020 – Maj 2021, Copenhagen, Denmark</small>
+                    <p className="occupation">Toptal | Freelance</p>
+                    </CardText>
+            </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          <CardText align="left" className="occupation">
+          <p  align="justify">As a freelancer React Developer I was creating and develop modern highly responsive web-based user interfaces, reusable components and front-end libraries for future use.
+ </p>
+                  <p  align="justify"> Technologies: </p> 
+                    <ul>
+                        <li>React, JavaScript, modern JavaScript, HTML, CSS</li>
+                        <li>Redux architecture & React Router for state managing and routing </li>
+                        <li>Git, Express, MongoDB, NodeJs, Webpack, ApI </li>
+                        <li>OOP, C# and ASP.NET MVC 5 + Entity framework</li>
+                    </ul>
+                    </CardText>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon className="occupation"/>}
           aria-controls="panel1a-content"
           id="panel1a-header" >
