@@ -5,7 +5,7 @@ export const COURSES =
             name:'M001: MongoDB Basics',
             image: 'assets/images/M001_proof_of_completion.jpeg',
             url: 'https://university.mongodb.com/course_completion/01b7fe1c-9d9e-43b1-9e99-4679ae4ba32e',
-            description:'A course where i have learn how to set up database and start exploring different ways to search, create, and analyze data with MongoDB. Database performance basics, and discover how to get started with creating applications and visualizing data.',
+            description:'A course where i have learn how to set up database and start exploring different ways to search, create, and analyze data with MongoDB etc.',
         },
         {
             id: 1,
