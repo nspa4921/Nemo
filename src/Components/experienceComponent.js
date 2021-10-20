@@ -105,6 +105,8 @@ investing. My responsibility is to redesign and launch mobile friendly website i
         <AccordionDetails>
           <Typography>
           <CardText align="left" className="occupation">
+            <p  align="justify">Concentrix offers customer support in the Nordic market, for both private and corporate 
+customers.</p>
           <p  align="justify">My responsibilities: </p> 
                     <ul>
                         <li>Onboarding newly acquired hotels into Expedia’s database,</li>
