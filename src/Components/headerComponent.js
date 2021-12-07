@@ -37,9 +37,9 @@ render() {
             <MDBNavItem>
               <NavLink href="http://ns-app.com/cv1/Nemanja_Spasic_CV_eng.pdf" target="_blank"><span className="fa fa-download fa-lg"></span>DOWNLOAD </NavLink>
             </MDBNavItem>
-            <MDBNavItem>
+            {/* <MDBNavItem>
               <NavLink  onClick={this.toggleModal} style={{cursor: 'pointer'}}><span className="fa fa-envelope fa-lg"></span>CONTACT</NavLink>
-            </MDBNavItem>
+            </MDBNavItem> */}
           </MDBNavbarNav>
         </MDBCollapse>
 

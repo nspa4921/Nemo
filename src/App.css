@@ -95,6 +95,16 @@ body,
   line-height: 1.3;
 }
 
+a:hover{
+  background: transparent;
+  color: transparent;
+  box-shadow: 0 0 5px #ee8625bb,
+              0 0 25px #ee8625bb,
+              0 0 50px #ee8625bb,
+              0 0 200px #ee8625bb;
+   -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
 .row-header {
   margin: 0px auto;
   padding: 0px auto;
