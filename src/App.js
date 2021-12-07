@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './App.css';
 import "animate.css/animate.min.css";
 import Main from './Components/mainComponent';
