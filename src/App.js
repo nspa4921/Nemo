@@ -40,14 +40,14 @@ const App = () => {
           },
           particles: {
             opacity: {
-              value: 1,
+              value: 0.2,
               random: {
                 enable: true,
                 minimumValue: 0.05
               },
               animation: {
                 enable: true,
-                speed: 1.5,
+                speed: 0.4,
                 minimumValue: 0.05
               }
             },
