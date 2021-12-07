@@ -70,6 +70,7 @@ body,
   background: url("../src/images/border.png") repeat-y 100px;
   background-position: center;
   margin-top: auto;
+  
 }
 
 @media only screen and (max-width: 767px) {
@@ -93,16 +94,6 @@ body,
     1px 1px 0 #000;
   letter-spacing: 0.1px;
   line-height: 1.3;
-}
-
-a:hover{
-  background: transparent;
-  color: transparent;
-  box-shadow: 0 0 5px #ee8625bb,
-              0 0 25px #ee8625bb,
-              0 0 50px #ee8625bb,
-              0 0 200px #ee8625bb;
-   -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
 }
 
 .row-header {
@@ -214,6 +205,7 @@ span {
   background-color: transparent;
   color: white;
 }
+
 
 .fa-icons {
   margin: 16px !important;

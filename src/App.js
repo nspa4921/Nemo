@@ -52,7 +52,7 @@ const App = () => {
               }
             },
             size: {
-              value: 150
+              value: 120
             }
           }
           }} />
