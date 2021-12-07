@@ -48,7 +48,7 @@ import Swing from 'react-reveal/Swing';
                       <CardTitle align="center">SOCIAL</CardTitle>  
           
                     <Row>
-                      <Col>
+                      <Col align="center">
                         <a target="_blank" rel="noopener noreferrer" className="btn btn-social-icon" href="https://www.linkedin.com/in/nemanja-spasic-68993930/"><i className="fa fa-linkedin fa-5x occupation"></i></a>
                         <a target="_blank" rel="noopener noreferrer" className="btn btn-social-icon" href="https://www.facebook.com/spasic.n/" ><i className="fa fa-facebook fa-5x occupation"></i></a>
                       </Col> 
