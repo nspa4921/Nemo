@@ -31,6 +31,36 @@ export default function SimpleAccordion() {
                 <CardTitle align="left" className="occupation"><h3>WORKING EXPERIENCE</h3></CardTitle>
                 </RubberBand>
                     <br></br>
+                    <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon className="occupation" />}
+          aria-controls="panel1a-content"
+          id="panel1a-header">
+          <Typography className={classes.heading}>   
+                    <CardText align="left" >      
+                    <h7><span className="fa fa-align-justify fa-lg"></span> FRONTEND DEVELOPER</h7><br></br>        
+                    <small className="text-muted"> Nov. 2021 – , Copenhagen, Denmark</small>
+                    <p className="occupation">Juristic ApS </p>
+                    </CardText>
+            </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          <CardText align="left" className="occupation">
+          <p  align="justify">Juristic helps advisers, lawyers, and accountants from A to Z. Illustrate complex legal structures and concepts with ease - and automate legal reporting with 1 click.</p>
+                  <p  align="justify"> Technologies | Tasks: </p> 
+                    <ul>
+                        <li>React, Typescript, Redux, Saga</li>
+                        <li>JSON, jQuery, Git </li>
+                        <li>implementing i18n (Internationalization)</li>
+                        <li>Converting JavaScript to TypeScript</li>
+                    </ul>
+
+                    
+                    </CardText>
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
           <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon className="occupation" />}
           aria-controls="panel1a-content"
@@ -38,7 +68,7 @@ export default function SimpleAccordion() {
           <Typography className={classes.heading}>   
                     <CardText align="left" >      
                     <h7><span className="fa fa-align-justify fa-lg"></span> FRONTEND DEVELOPER</h7><br></br>        
-                    <small className="text-muted"> Maj. 2021 – , Copenhagen, Denmark</small>
+                    <small className="text-muted"> Maj. 2021 – Nov. 2021 , Copenhagen, Denmark</small>
                     <p className="occupation">MakeImpact ApS</p>
                     </CardText>
             </Typography>
@@ -156,7 +186,7 @@ ensure that all data is correctly advertised</li>
         </AccordionDetails>
       </Accordion>
                
-      <Accordion>
+      {/* <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon className="occupation" />}
           aria-controls="panel1a-content"
@@ -188,7 +218,7 @@ ensure that all data is correctly advertised</li>
                 </CardBody>
           </Typography>
         </AccordionDetails>
-      </Accordion>
+      </Accordion> */}
 
       <Accordion>
         <AccordionSummary
