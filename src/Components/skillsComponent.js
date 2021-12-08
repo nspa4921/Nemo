@@ -20,37 +20,37 @@ export default function SimpleAccordion() {
             </CardTitle>
               <Row>
                 <Col xs="12" sm="12"  align="left" className="occupation">
-                <CardText style={{ fontSize: 13, lineHeight: 2}}>🗸 Highly proficient in JavaScript, modern JavaScript, HTML, CSS</CardText> 
+                <CardText style={{ fontSize: 13, lineHeight: 2}}>🗸 Highly proficient in HTML, CSS, JavaScript, and jQuery</CardText> 
                 </Col>     
               </Row>
               <Row>
                 <Col xs="12" sm="12" align="left" className="occupation">
-                <CardText style={{ fontSize: 13, lineHeight: 2 }}>🗸 3+ years professional experience in React.js </CardText> 
+                <CardText style={{ fontSize: 13, lineHeight: 2 }}>🗸 4+ years professional experience working in React.js, Typescript </CardText> 
                 </Col>
                 
               </Row>
               <Row>
                 <Col xs="12" sm="12"  align="left" className="occupation">
-                <CardText style={{ fontSize: 13, lineHeight: 2 }}>🗸 Highly proficient in rendering data to the DOM using React.js </CardText> 
+                <CardText style={{ fontSize: 13, lineHeight: 2 }}>🗸 Highly proficient using CSS frameworks Material-UI & Bootstrap</CardText> 
                 </Col>
                 
               </Row>
               <Row>
                 <Col xs="12" sm="12"  align="left" className="occupation">
-                <CardText style={{ fontSize: 13, lineHeight: 2}}>🗸 Highly proficient in Redux architecture & React Router for state managing and routing </CardText> 
+                <CardText style={{ fontSize: 13, lineHeight: 2}}>🗸 Very experienced in Redux architecture, using Hooks, React Router, Fetch.. </CardText> 
                 </Col>
                 
               </Row>
               <Row>
                 <Col xs="12" sm="12" align="left" className="occupation">
-                <CardText style={{ fontSize: 13, lineHeight: 2 }}>🗸 Proficient in using Git, Express, MongoDB, NodeJs, Webpack, ApI
+                <CardText style={{ fontSize: 13, lineHeight: 2 }}>🗸 Proficient in using Git & Github, Express, MongoDB, NodeJs, Webpack, ApI
  </CardText> 
                 </Col>
                 
               </Row>
               <Row>
                 <Col xs="12" sm="12"  align="left" className="occupation">
-                <CardText style={{ fontSize: 13, lineHeight: 2 }}>🗸 Experience working with CMS systems: Wordpress and Joomla   </CardText> 
+                <CardText style={{ fontSize: 13, lineHeight: 2 }}>🗸 Experience working with CMS systems   </CardText> 
                 </Col>
                 
               </Row>
