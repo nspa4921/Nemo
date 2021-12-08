@@ -49,8 +49,8 @@ export default function SimpleAccordion() {
           <p  align="justify">Juristic helps advisers, lawyers, and accountants from A to Z. Illustrate complex legal structures and concepts with ease - and automate legal reporting with 1 click.</p>
                   <p  align="justify"> Technologies | Tasks: </p> 
                     <ul>
-                        <li>React, Typescript, Redux, Saga</li>
-                        <li>JSON, jQuery, Git </li>
+                        <li>React, Typescript, Redux, Material-UI </li>
+                        <li>JSON, Git, Github </li>
                         <li>implementing i18n (Internationalization)</li>
                         <li>Converting JavaScript to TypeScript</li>
                     </ul>
@@ -67,7 +67,7 @@ export default function SimpleAccordion() {
           id="panel1a-header">
           <Typography className={classes.heading}>   
                     <CardText align="left" >      
-                    <h7><span className="fa fa-align-justify fa-lg"></span> FRONTEND DEVELOPER</h7><br></br>        
+                    <h7><span className="fa fa-align-justify fa-lg"></span>FRONTEND DEVELOPER</h7><br></br>        
                     <small className="text-muted"> Maj. 2021 – Nov. 2021 , Copenhagen, Denmark</small>
                     <p className="occupation">MakeImpact ApS</p>
                     </CardText>
