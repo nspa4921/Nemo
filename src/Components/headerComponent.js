@@ -32,7 +32,7 @@ render() {
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav right>
             <MDBNavItem >
-              <NavLink href="#" ><span className="fa fa-print fa-lg"></span>PRINT</NavLink>
+              <NavLink onClick={() => window.print()}><span className="fa fa-print fa-lg"></span>PRINT</NavLink>
             </MDBNavItem>
             <MDBNavItem>
               <NavLink href="http://ns-app.com/cv1/Nemanja_Spasic_CV_eng.pdf" target="_blank"><span className="fa fa-download fa-lg"></span>DOWNLOAD </NavLink>
