@@ -19,7 +19,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function SimpleAccordion() {
+export default function Experience() {
   const classes = useStyles();
       return (
         <div className={classes.root}>
@@ -103,9 +103,10 @@ investing. My responsibility is to redesign and launch mobile friendly website i
         <AccordionDetails>
           <Typography>
           <CardText align="left" className="occupation">
-          <p  align="justify">As a freelancer React Developer I was creating and develop modern highly responsive web-based user interfaces, reusable components and front-end libraries for future use.
- </p>
-                  <p  align="justify"> Technologies: </p> 
+          <p  align="justify">
+            As a freelancer React Developer I was creating and develop modern highly responsive web-based user interfaces, reusable components and front-end libraries for future use.
+          </p>
+                  <p align="justify"> Technologies: </p> 
                     <ul>
                         <li>React, JavaScript, modern JavaScript, HTML, CSS</li>
                         <li>Redux architecture & React Router for state managing and routing </li>
@@ -123,11 +124,9 @@ investing. My responsibility is to redesign and launch mobile friendly website i
           id="panel1a-header" >
           <Typography className={classes.heading}>   
                     <CardText align="left" >      
-                    <h7><span className="fa fa-align-justify fa-lg"></span> LODGING CONTENT ASSOCIETE FOR HOTELS.COM AND EXPEDIA.DK 
-</h7>  
+                    <h7><span className="fa fa-align-justify fa-lg"></span> LODGING CONTENT ASSOCIETE FOR HOTELS.COM AND EXPEDIA.DK </h7>  
                     <br></br>
-                    <small className="text-muted">Apr. 2016 – Mar. 2020, Helsingborg, Sweden
-</small>
+                    <small className="text-muted">Apr. 2016 – Mar. 2020, Helsingborg, Sweden </small>
                     <p className="occupation">Concentrix International Nordric AB</p>
                     </CardText>
                     </Typography>
@@ -135,16 +134,15 @@ investing. My responsibility is to redesign and launch mobile friendly website i
         <AccordionDetails>
           <Typography>
           <CardText align="left" className="occupation">
-            <p  align="justify">Concentrix offers customer support in the Nordic market, for both private and corporate 
-customers.</p>
+            <p  align="justify">Concentrix offers customer support in the Nordic market, for both private and corporate customers.</p>
           <p  align="justify">My responsibilities: </p> 
                     <ul>
                         <li>Onboarding newly acquired hotels into Expedia’s database,</li>
                         <li>Uploading and checking accuracy of content, adding property details, photos, star 
-ratings, and hotel data such as name, location and on-site services,</li>
+                            ratings, and hotel data such as name, location and on-site services,</li>
                         <li>Providing customer service support to Expedia’s hotel partners (business to 
-business relationship), gathering information from them by using a checklist to 
-ensure that all data is correctly advertised</li> 
+                            business relationship), gathering information from them by using a checklist to 
+                            ensure that all data is correctly advertised</li> 
                     </ul>
                     </CardText>
           </Typography>
@@ -252,7 +250,7 @@ ensure that all data is correctly advertised</li>
           </Typography>
         </AccordionDetails>
       </Accordion>       
-                </CardBody>
+      </CardBody>
               </Col>
               <Col className="wrapper">
                   <Skills />

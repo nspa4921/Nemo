@@ -35,6 +35,7 @@ const App = () => {
           background: {
             image:
               "url('https://hdwallsource.com/img/2014/4/digital-wallpapers-24971-25651-hd-wallpapers.jpg')",
+              // "url('http://ns-app.com/images/nemocvBg.jpg')",
             size: "100% 100%",
             repeat: "no-repeat"
           },
